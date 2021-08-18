@@ -1,5 +1,5 @@
 package lavel1;
-
+//https://programmers.co.kr/learn/courses/30/lessons/81301?language=java
 public class Solution3 {
     public int solution(String s) {
         s = s
