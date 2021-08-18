@@ -1,4 +1,5 @@
 package lavel1;
+//https://programmers.co.kr/learn/courses/30/lessons/64061?language=java
 import java.util.ArrayList;
 class Solution2 {
     public int solution(int[][] board, int[] moves) {
