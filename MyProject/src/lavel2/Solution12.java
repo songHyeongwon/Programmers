@@ -46,7 +46,7 @@ public class Solution12 {
 	        int distance[] = new int[n+1];          //최단 거리를 저장할 변수
 	        boolean[] check = new boolean[n+1];     //해당 노드를 방문했는지 체크할 변수
 			
-	        //distance값 초기화.
+	        //distance값 초기화
 	        for(int i=1;i<n+1;i++){
 	            distance[i] = Integer.MAX_VALUE;
 	        }
