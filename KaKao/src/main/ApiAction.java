@@ -70,7 +70,7 @@ public class ApiAction {
 	        System.out.println("not JSON Format response");
 	        e.printStackTrace();
 	    }
-	    System.out.println(responseJson.toString());
+	    //System.out.println(responseJson.toString());
 	    return responseJson;
 	}
 	public JSONObject actionAPI(String apiType, String method, JSONObject commands) {
