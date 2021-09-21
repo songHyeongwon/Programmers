@@ -3,7 +3,7 @@ package lavel3;
 public class Solution15 {
 	public static void main(String[] args) {
 		
-		System.out.println(new Solution15().solution(0, 0));
+		System.out.println(new Solution15().solution(5, 12));
 	}
 	
 	//ÃâÃ³ : https://velog.io/@jwkim/DFS-n-expression
@@ -19,6 +19,7 @@ public class Solution15 {
     }
 
 	private void dfs(int count, int prev) {
+		System.out.println(prev);
 		// TODO Auto-generated method stub
 		if(count > 8) {
 			answer = -1;
