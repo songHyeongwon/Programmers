@@ -1,8 +1,53 @@
 package lavel1;
 //https://programmers.co.kr/learn/courses/30/lessons/64061?language=java
 import java.util.ArrayList;
+import java.util.Stack;
 class Solution2 {
-    public int solution(int[][] board, int[] moves) {
+	public static void main(String[] args) {
+		int[][] arr = {{0,0,0,0,0},{0,0,1,0,3},{0,2,5,0,1},{4,2,4,4,2},{3,5,1,3,1}};
+		int[] b = {1,5,3,5,1,2,1,4};
+		
+		System.out.println(new Solution2().solution(arr, b));
+	}
+	
+	public int solution(int[][] board, int[] moves) {
+        int answer = 0;
+        ArrayList<Stack<Integer>> arr = new ArrayList<Stack<Integer>>();
+        Stack<Integer> scoreStack = new Stack<Integer>();
+        for(int i =0; i < board[0].length; i++) {
+        	arr.add(new Stack<Integer>());
+        	for(int j = board.length-1; j >=0 ; j--) {
+        		if(board[j][i] != 0) {//0은 빈거니까 굳이 넣을필요 없음
+        			arr.get(i).add(board[j][i]);
+        		}
+            }
+        }
+        //스택확인 출력용
+        /*for(int i =0; i < board[0].length; i++) {
+        	System.out.println(arr.get(i).toString());
+        }*/
+        scoreStack.add(-1);//널 오류나지않게 없는값 하나 입력
+        for(int i : moves) {
+        	//해당스택이 비어있지 않다면
+        	if(!arr.get(i-1).isEmpty()) {
+        		int inputNum = arr.get(i-1).pop();
+        		//System.out.println(inputNum);
+    			int resultNum = scoreStack.pop();
+    			if(resultNum == inputNum) {
+    				answer += 2;
+    			} else {
+    				//둘다 다시 넣은다(확인 후 빼나 빼고 다시 넣나)
+    				scoreStack.add(resultNum);
+    				scoreStack.add(inputNum);
+    			}
+        	}
+        }
+        
+        return answer;
+    }
+	
+	
+    /*public int solution(int[][] board, int[] moves) {
         int[][] newBoard = new int[board.length][board.length];
 		
 		ArrayList<Integer> arr = new ArrayList<Integer>();
@@ -46,5 +91,5 @@ class Solution2 {
 			}
 		}
 		return result;
-	}
+	}*/
 }
