@@ -8,7 +8,7 @@ public class Solution16 {
 		System.out.println(new Solution16().solution(6, 4, 6, 2, fares));
 	}
 	//출처 https://wellbell.tistory.com/101
-	static final int MAX = 20000001;
+	static final int MAX = Integer.MAX_VALUE;
 	static ArrayList<ArrayList<Node>> graph;
 	//다익스트라 알고리즘
 	public int solution(int n, int s, int a, int b, int[][] fares) {
@@ -37,9 +37,12 @@ public class Solution16 {
         startB = dijkstra(b, startB);
         start = dijkstra(s, start);
         
+        System.out.println(Arrays.toString(startA));
+        System.out.println(Arrays.toString(startB));
+        System.out.println(Arrays.toString(start));
+        
         for(int i = 1; i <= n ; i ++) {
         	answer = Math.min(answer, startA[i] + startB[i] + start[i]);
-        	System.out.println(answer);
         }
         
         return answer;
