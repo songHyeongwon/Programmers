@@ -1,5 +1,5 @@
 # KaKao
-카카오 코딩테스트 2차
+KaKao
 
 # Start Project
 Main /KaKao/src/main/Main.java
