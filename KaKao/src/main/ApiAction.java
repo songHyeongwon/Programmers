@@ -13,9 +13,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class ApiAction {
+	//전년도 문제 참고 주석
 	//메인 설정
-	String HOST_URL = "https://kox947ka1a.execute-api.ap-northeast-2.amazonaws.com/prod/users";
-	String token = "bd3c0c5b9600175d3bb4bc60b3d4da81";
+	String HOST_URL = "https://huqeyhi95c.execute-api.ap-northeast-2.amazonaws.com/prod";
+	String token = "8a751668e3a962d6bfb3fd2cf4033c8d";
 	String auth_key = "";
 	
 	public JSONObject startApi(int problem) {
@@ -70,7 +71,7 @@ public class ApiAction {
 	        System.out.println("not JSON Format response");
 	        e.printStackTrace();
 	    }
-	    //System.out.println(responseJson.toString());
+	    System.out.println(responseJson.toString());
 	    return responseJson;
 	}
 	public JSONObject actionAPI(String apiType, String method, JSONObject commands) {
@@ -89,6 +90,7 @@ public class ApiAction {
 	        conn.setRequestProperty("Content-Type", "application/json");
 	        
 	        if(commands != null) {
+	        	//System.out.println("SEND ~ "+apiType +"="+ commands.toString());
 	        	//request에 JSON data 준비
 		        conn.setDoOutput(true);
 		        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(conn.getOutputStream()));
@@ -120,35 +122,7 @@ public class ApiAction {
 	        System.out.println("not JSON Format response");
 	        e.printStackTrace();
 	    }
-	    System.out.println(responseJson.toString());
+	    //System.out.println("RESULT ~ "+apiType +"="+ responseJson.toString());
 	    return responseJson;
 	}
-
-    /*public static void main(String[] args) {
-        String token = "YOUR_ACCESS_TOKEN";// 네아로 접근 토큰 값";
-        String header = "Bearer " + token; // Bearer 다음에 공백 추가
-        try {
-            String apiURL = "https://openapi.naver.com/v1/nid/me";
-            URL url = new URL(apiURL);
-            HttpURLConnection con = (HttpURLConnection)url.openConnection();
-            con.setRequestMethod("GET");
-            con.setRequestProperty("Authorization", header);
-            int responseCode = con.getResponseCode();
-            BufferedReader br;
-            if(responseCode==200) { // 정상 호출
-                br = new BufferedReader(new InputStreamReader(con.getInputStream()));
-            } else {  // 에러 발생
-                br = new BufferedReader(new InputStreamReader(con.getErrorStream()));
-            }
-            String inputLine;
-            StringBuffer response = new StringBuffer();
-            while ((inputLine = br.readLine()) != null) {
-                response.append(inputLine);
-            }
-            br.close();
-            System.out.println(response.toString());
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-    }*/
 }
