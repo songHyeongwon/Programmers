@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Temp/wordSpace/git/Programmers/Programmers/KaKao/src/json-20210307.jar"/>
+	<classpathentry kind="lib" path="C:/Temp/workSpace/Programmers/KaKao/src/json-20210307.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
