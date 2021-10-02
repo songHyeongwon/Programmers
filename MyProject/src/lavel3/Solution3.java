@@ -15,8 +15,10 @@ public class Solution3 {
             fn *= i;
             list.add(i);
         }
-        k--;
+        k--;//k에 1빼줌
         
+        System.out.println(list.toString());
+
         int idx = 0; //배열이 다 차면 끝
         while(n > 0) {
             fn /= n;            //n번 째 자리수가 정해짐
@@ -24,6 +26,8 @@ public class Solution3 {
             list.remove((int) (k/fn));
             k %= fn;
             n--;
+            System.out.println(fn);
+            System.out.println(k);
         }
         return result;
     }
