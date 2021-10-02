@@ -13,8 +13,6 @@ public class Solution2 {
         Stack<Character> stack = new Stack<Character>();
         //stack.add('(');
         for (int i = 0; i < s.length(); i++) {
-			
-			
 			if(s.charAt(i) == '(') {
 				stack.add(s.charAt(i));
 			} else {
