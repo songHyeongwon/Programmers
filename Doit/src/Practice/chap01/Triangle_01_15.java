@@ -1,4 +1,4 @@
-package chap01;
+package Practice.chap01;
 import java.util.Scanner;
 // 4가지의 직각삼각형 모양으로 나타냄
 

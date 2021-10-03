@@ -1,4 +1,4 @@
-package chap01;
+package Practice.chap01;
 import java.util.Scanner;
 // 1, 2, …, n의 합을 구합니다  (식1 + 2 + … + n = 999라고 출력함)
 

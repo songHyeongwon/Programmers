@@ -1,4 +1,4 @@
-package chap01;
+package Practice.chap01;
 
 class Add99TableEx_01_13 {
 	public static void main(String[] args) {

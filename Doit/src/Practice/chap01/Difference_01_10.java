@@ -1,4 +1,4 @@
-package chap01;
+package Practice.chap01;
 import java.util.Scanner;
 // 정수 b에서 정수 a를 뺀 값을 구합니다(b > a가 되도록 입력 받음)
 

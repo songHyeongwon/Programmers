@@ -1,4 +1,4 @@
-package chap01;
+package Practice.chap01;
 import java.util.Scanner;
 // 정사각형 모양을 나타냄
 

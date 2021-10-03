@@ -1,4 +1,4 @@
-package chap01;
+package Practice.chap01;
 import java.util.Scanner;
 // 양의 정수값의 자릿수를 구하여 나타냄
 
