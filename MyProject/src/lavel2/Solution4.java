@@ -13,6 +13,7 @@ public class Solution4 {
 		System.out.println(Solution4.solution(board));
 	}
 	//출처 https://soobarkbar.tistory.com/164 
+	//Dp방식 구현
 	public int solution(int [][]board) {
 		int answer = 0;
 		int row = board.length;
@@ -24,12 +25,12 @@ public class Solution4 {
 			}
 		}
 		
-		/*for (int i = 0; i < map.length; i++) {
+		for (int i = 0; i < map.length; i++) {
 			for (int j = 0; j < map[0].length; j++) {
 				System.out.print(map[i][j]);
 			}
 			System.out.println();
-		}*/
+		}
 		
 		for (int i = 1; i <= row; i++) {
 			for (int j = 1; j <= col; j++) {
@@ -39,13 +40,13 @@ public class Solution4 {
 				}
 			}
 		}
-		/*System.out.println();
+		System.out.println();
 		for (int i = 0; i < map.length; i++) {
 			for (int j = 0; j < map[0].length; j++) {
 				System.out.print(map[i][j]);
 			}
 			System.out.println();
-		}*/
+		}
 		
 		return answer * answer;
     }
