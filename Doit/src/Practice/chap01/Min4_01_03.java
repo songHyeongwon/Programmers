@@ -1,4 +1,4 @@
-package chap01;
+package Practice.chap01;
 import java.util.Scanner;
 // 4개의 값의 최솟값을 구하여 출력
 
