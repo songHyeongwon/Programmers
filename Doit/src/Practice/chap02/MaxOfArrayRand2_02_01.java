@@ -1,4 +1,4 @@
-package chap02;
+package Practice.chap02;
 import java.util.Random;
 // 배열의 요소의 최댓값을 출력  (요솟수와 값을 난수로 생성)
 

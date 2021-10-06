@@ -1,4 +1,4 @@
-package chap02;
+package Practice.chap02;
 import java.util.Scanner;
 // 입력 받은 10진수를 2진수~36진수로 기수변환하여 출력(변환과정)
 

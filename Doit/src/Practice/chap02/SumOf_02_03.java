@@ -1,4 +1,4 @@
-package chap02;
+package Practice.chap02;
 import java.util.Scanner;
 // 배열 a의 요소의 합을 출력
 

@@ -1,4 +1,4 @@
-package chap02;
+package Practice.chap02;
 import java.util.Scanner;
 // 연내의 남은 일 수를 구합니다.
 

@@ -1,4 +1,4 @@
-package chap02;
+package Practice.chap02;
 // 신체검사 데이터용 클래스의 배열에서 평균키와 시력의 분포를 구합니다.(그래프로 나타냄)
 
 class PhysicalExaminationEx_02_10 {

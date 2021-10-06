@@ -1,4 +1,4 @@
-package chap02;
+package Practice.chap02;
 import java.util.Scanner;
 // 배열 b의 모든 요소를 배열 a에 역순으로 copy하는 메소드를 작성하세요.
 

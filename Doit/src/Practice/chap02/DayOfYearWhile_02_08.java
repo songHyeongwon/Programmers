@@ -1,4 +1,4 @@
-package chap02;
+package Practice.chap02;
 import java.util.Scanner;
 // 연내의 경과 일 수를 구합니다(while문을 사용).
 
