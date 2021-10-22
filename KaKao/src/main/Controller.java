@@ -10,12 +10,12 @@ import org.json.JSONObject;
 
 public class Controller {
 	
-	ApiAction api = new ApiAction();
-	String status = "";
-	int time = 0;
-	ArrayList<UserVo> userList = new ArrayList<>();
-	Queue<UserVo> updateQueue = new LinkedList<>();
-	PriorityQueue<UserVo> waitingQueue = new PriorityQueue<>();
+	ApiAction api = new ApiAction();//Api 실행용 액션
+	String status = "";//서버의 상태 finished면 종료
+	int time = 0;//현재시간
+	ArrayList<UserVo> userList = new ArrayList<>();//유저정보를 담는 ArrayList
+	Queue<UserVo> updateQueue = new LinkedList<>();//업데이트 해야하는 유저의 큐
+	PriorityQueue<UserVo> waitingQueue = new PriorityQueue<>();//대기열 큐
 	
 	//최초 시작시 컨트롤러
 	public void startController(int problem) {
