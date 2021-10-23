@@ -22,7 +22,7 @@ public class Main {
 		
 		while(true) {
 			controller.process();
-			//상태 finished 시 정지
+			//서버상태 finished 시 정지
 			if(controller.status.equals("finished")) {
 				break;
 			}

@@ -15,8 +15,8 @@ import org.json.JSONObject;
 public class ApiAction {
 	//전년도 문제 참고 주석
 	//메인 설정
-	String HOST_URL = "https://huqeyhi95c.execute-api.ap-northeast-2.amazonaws.com/prod";
-	String token = "8a751668e3a962d6bfb3fd2cf4033c8d";
+	/*private final */String HOST_URL = "https://huqeyhi95c.execute-api.ap-northeast-2.amazonaws.com/prod";
+	/*private final */String token = "8a751668e3a962d6bfb3fd2cf4033c8d";
 	String auth_key = "";
 	
 	public JSONObject startApi(int problem) {

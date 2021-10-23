@@ -22,6 +22,64 @@ public class UserVo implements Comparable<UserVo>{
 		
 	}
 
+	public int getId() {
+		return id;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public int getGrade() {
+		return grade;
+	}
+
+
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
+
+
+	public int getWinCnt() {
+		return winCnt;
+	}
+
+
+	public void setWinCnt(int winCnt) {
+		this.winCnt = winCnt;
+	}
+
+
+	public int getFrom() {
+		return from;
+	}
+
+
+	public void setFrom(int from) {
+		this.from = from;
+	}
+
+
+	public int getLoseCnt() {
+		return loseCnt;
+	}
+
+
+	public void setLoseCnt(int loseCnt) {
+		this.loseCnt = loseCnt;
+	}
+
+
+	public int getTotalGameTaken() {
+		return totalGameTaken;
+	}
+
+
+	public void setTotalGameTaken(int totalGameTaken) {
+		this.totalGameTaken = totalGameTaken;
+	}
 
 	@Override
 	public int compareTo(UserVo o) {

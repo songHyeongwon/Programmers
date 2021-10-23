@@ -17,7 +17,7 @@ public class Controller {
 	Queue<UserVo> updateQueue = new LinkedList<>();//업데이트 해야하는 유저의 큐
 	PriorityQueue<UserVo> waitingQueue = new PriorityQueue<>();//대기열 큐
 	
-	//최초 시작시 컨트롤러
+	//최초 시작시 컨트롤러 api액션의 객체를 생성함
 	public void startController(int problem) {
 		JSONObject startResult = this.api.startApi(problem);
 		this.api.auth_key = startResult.getString("auth_key");
@@ -25,8 +25,8 @@ public class Controller {
 		
 		addUserList();
 		
-		JSONObject WaitingLine = this.api.actionAPI("waiting_line", "GET", null); //대기열
-		JSONArray arr = WaitingLine.getJSONArray("waiting_line");
+		JSONObject waitingLine = this.api.actionAPI("waiting_line", "GET", null); //대기열
+		JSONArray arr = waitingLine.getJSONArray("waiting_line");
 		if(arr.length() == 0) {
 			addTime();
 		}
@@ -48,13 +48,13 @@ public class Controller {
 	private void match() {
 		// TODO Auto-generated method stub
 		ArrayList<int[]> list = new ArrayList<>();
-		
+		//앞에 조건은 사실 필요없음 뒤에 size >= 2만 있어도 충분
 		while(!this.waitingQueue.isEmpty() && this.waitingQueue.size() >= 2) {
 			UserVo vo1 = waitingQueue.poll();
 			UserVo vo2 = waitingQueue.poll();
 			//매칭 된다
 			if(isMatch(vo1 , vo2)) {
-				vo1.from = 0;
+				vo1.from = 0;//매칭이 되었으니 기다린 시간을 초기화
 				vo2.from = 0;
 				list.add(new int[] {vo1.id ,vo2.id});
 			} else {
@@ -70,7 +70,7 @@ public class Controller {
 		
  		JSONObject obj = new JSONObject();
 		obj.put("pairs", arr);
-		JSONObject match = api.actionAPI("match", "PUT", obj); //빈 배열 보내서 단순 진행
+		JSONObject match = api.actionAPI("match", "PUT", obj); //빈 배열 보내서 단순 진행(복붙해서 생긴 주석)
 		this.status = match.getString("status");
 		this.time = match.getInt("time");
 	}
@@ -153,7 +153,7 @@ public class Controller {
 					loser.addGrade(-1*(prese[1] / loser.loseCnt));
 				}
 			}
-			
+			// 이 중요한 단서인 토큰값(게임시간)을 단순 누적하고 버림
 			winner.totalGameTaken += obj.getInt("taken");
 			loser.totalGameTaken += obj.getInt("taken");
 			this.updateQueue.add(winner);

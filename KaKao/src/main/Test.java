@@ -1,10 +1,13 @@
 package main;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 public class Test {
 	public static void main(String[] args) {
 		System.out.println(Arrays.toString(getGrade( 40000, 40000)));
+		PriorityQueue<Integer> qu = new PriorityQueue<Integer>();
+		System.out.println(qu.size());
 	}
 	
 	//점수의 가중치를 계산합니다.
