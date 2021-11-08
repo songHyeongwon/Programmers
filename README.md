@@ -3,10 +3,10 @@
 <h3> MyProject 코딩시험 </h3>
 devMatching(불합격)<br>
 kakao 블라인드(합격)<br>
-kakaoBank(불합격)<br>
+kakaoBank(합격)<br>
 naver(불합격)<br>
 naverFinancial(합격)<br>
-wadiz(불합격)<br>
+wadiz(합격)<br>
 <br>
 
 <h3> BaekJoon </h3>
