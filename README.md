@@ -18,7 +18,9 @@ wadiz(합격)<br>
 <br>
 
 <h3> Doit 자료구조와 함께 배우는 알고리즘 </h3>
-![캡처](https://user-images.githubusercontent.com/51102922/140730586-71e838b9-c346-4383-926f-9d99ddae9c76.PNG) 
+
+![캡처](https://user-images.githubusercontent.com/51102922/140730586-71e838b9-c346-4383-926f-9d99ddae9c76.PNG)
+
 (진행중)
 <br>
 
