@@ -1,7 +1,6 @@
 # 알고리즘 코딩테스트 모음
 <h2> 현재 프로젝트 사항 </h2>
-<h3> MyProject </h3>
-코딩시험
+<h3> MyProject 코딩시험 </h3>
 devMatching(불합격)<br>
 kakao 블라인드(합격)<br>
 kakaoBank(불합격)<br>
