@@ -1,12 +1,16 @@
 # 알고리즘 코딩테스트 모음
 <h2> 현재 프로젝트 사항 </h2>
 <h3> MyProject 코딩시험 </h3>
-devMatching(불합격)<br>
-kakao 블라인드(합격)<br>
-kakaoBank(합격)<br>
-naver(불합격)<br>
-naverFinancial(합격)<br>
-wadiz(합격)<br>
+kakaoBank(2021.08.14 합격)<br>
+wadiz(2021.08.21 불합격)<br>
+naver(2021.08.29 불합격)<br>
+kakao 블라인드(2021.09.11 합격)<br>
+devMatching(2021.10.16 불합격)<br>
+naverFinancial(2021.10.30 합격)
+<br>
+
+<h3> KaKao </h3>
+카카오 블라인드 2차 과제 테스트 (2021.09.25 합격)
 <br>
 
 <h3> BaekJoon </h3>
@@ -26,8 +30,4 @@ wadiz(합격)<br>
 
 
 (진행중)
-<br>
-
-<h3> KaKao </h3>
-카카오 블라인드 2차 과제 테스트 (종료=합격)
 <br>
