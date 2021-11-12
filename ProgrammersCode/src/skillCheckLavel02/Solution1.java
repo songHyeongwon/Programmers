@@ -1,7 +1,5 @@
 package skillCheckLavel02;
 
-import java.util.Arrays;
-
 public class Solution1 {
 	public static void main(String[] args) {
 		//int[][] arr = {{0,0,1,1},{1,1,1,1}};
