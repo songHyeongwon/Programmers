@@ -6,7 +6,8 @@ wadiz(2021.08.21 불합격)<br>
 naver(2021.08.29 불합격)<br>
 kakao 블라인드(2021.09.11 합격)<br>
 devMatching(2021.10.16 불합격)<br>
-naverFinancial(2021.10.30 합격)
+naverFinancial(2021.10.30 합격)<br>
+LINE Fintech(2021.11.27 예정)
 <br>
 
 <h3> KaKao </h3>
