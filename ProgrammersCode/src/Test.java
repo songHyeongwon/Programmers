@@ -19,4 +19,6 @@ public class Test {
 			e.printStackTrace();
 		}
 	}
+	//오늘 프로그래머스는 하루 쉽니다
+	
 }
