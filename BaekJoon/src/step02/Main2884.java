@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Main2884 {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();

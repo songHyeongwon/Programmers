@@ -13,6 +13,6 @@ public class Main10952 {
 			}
 			System.out.println(a+b);
 		}
-		
+		sc.close();
 	}
 }

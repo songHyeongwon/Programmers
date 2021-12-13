@@ -11,6 +11,7 @@ public class Main10250 {
 			int H = sc.nextInt();
 			int W = sc.nextInt();
 			int N = sc.nextInt();
+			//N = N % W;
 			
 			if(N % H ==0) {
 				System.out.print(H);

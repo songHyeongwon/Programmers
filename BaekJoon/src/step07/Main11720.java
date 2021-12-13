@@ -11,7 +11,7 @@ public class Main11720 {
 		
 		int sum = 0;
 		
-		for (int i = 0; i < temp.length(); i++) {
+		for (int i = 0; i < n; i++) {
 			sum += Character.getNumericValue(temp.charAt(i));
 		}
 		System.out.println(sum);

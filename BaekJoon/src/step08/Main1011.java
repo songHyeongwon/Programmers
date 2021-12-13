@@ -23,5 +23,6 @@ public class Main1011 {
 			}
 			
 		}
+		sc.close();
 	}
 }
