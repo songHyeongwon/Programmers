@@ -12,7 +12,7 @@ public class Main10250 {
 			int W = sc.nextInt();
 			int N = sc.nextInt();
 			//N = N % W;
-			
+			//이 부분의 W는 못지우겠다
 			if(N % H ==0) {
 				System.out.print(H);
 				int k = N/H;
