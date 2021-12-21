@@ -1,7 +1,8 @@
 # 넥스트 아이씨티 우수사원 선정~! 
 ## 앞으로도 더 노력하는 개발자가 되겠습니다.
-![KakaoTalk_20211221_204639798](https://user-images.githubusercontent.com/51102922/146925372-1b280378-5652-4e86-bfae-5d3642de6137.jpg)
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/51102922/146925372-1b280378-5652-4e86-bfae-5d3642de6137.jpg" width="468" height="625"/>
+</p>
 
 # 알고리즘 코딩테스트 모음
 <h2> 현재 프로젝트 사항 </h2>
