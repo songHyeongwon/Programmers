@@ -1,4 +1,4 @@
-package chap03;
+package Practice.chap03;
 import java.util.Arrays;
 import java.util.Scanner;
 // Arrays.binarySearch에 의한 이진검색(실패할 때 삽입 포인트를 나타냄)
