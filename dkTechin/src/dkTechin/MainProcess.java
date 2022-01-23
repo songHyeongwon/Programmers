@@ -90,9 +90,9 @@ public class MainProcess {
 		//apiKey 역정렬
 		List<Entry<String, Integer>> apiKeyList = mapSortReverseOrder(apiKey);
 		//apiServiceId 역정렬
-		//List<Entry<String, Integer>> apiServiceIdList = mapSortReverseOrder(apiServiceId);
+		List<Entry<String, Integer>> apiServiceIdList = mapSortReverseOrder(apiServiceId);
 		//브라우저 갯수 역정렬
-		//List<Entry<String, Integer>> browserList = mapSortReverseOrder(browser);
+		List<Entry<String, Integer>> browserList = mapSortReverseOrder(browser);
 		
 		StringBuffer buf = new StringBuffer();
 		buf.append("최다호출 APIKEY")
@@ -103,7 +103,7 @@ public class MainProcess {
 		.append("상위 3개의 API Service ID와 각각의 요청수")
 		.append("\n");
 		
-		apiServiceId.entrySet().stream()
+		/*apiServiceId.entrySet().stream()
 		.sorted(((o1, o2) -> o2.getValue() - o1.getValue()))
 		.limit(3)
 		.forEach(vo -> 
@@ -111,31 +111,31 @@ public class MainProcess {
 			.append(":")
 			.append(vo.getValue())
 			.append("\n")
-		);
-		/*for(int i = 0; i < 3 && i < apiServiceIdList.size(); i++) {
+		);*/
+		for(int i = 0; i < 3 && i < apiServiceIdList.size(); i++) {
 			buf.append(apiServiceIdList.get(i).getKey())
 			.append(":")
 			.append(apiServiceIdList.get(i).getValue())
 			.append("\n");
-		}*/
+		}
 		buf.append("\n")
 		.append("웹브라우저별 사용 비율")
 		.append("\n");
 		
-		browser.entrySet().stream()
+		/*browser.entrySet().stream()
 		.sorted(((o1, o2) -> o2.getValue() - o1.getValue()))
 		.forEach(vo -> 
 			buf.append(vo.getKey())
 			.append(":")
 			.append((int) ((double)vo.getValue() / (double)okCnt * 100.0) ).append("%")
 			.append("\n")
-		);
-		/*for(Entry<String, Integer> vo : browserList) {
+		);*/
+		for(Entry<String, Integer> vo : browserList) {
 			buf.append(vo.getKey())
 			.append(":")
 			.append((int) ((double)vo.getValue() / (double)okCnt * 100.0) ).append("%")
 			.append("\n");
-		}*/
+		}
 		return buf;
 	}
 	
