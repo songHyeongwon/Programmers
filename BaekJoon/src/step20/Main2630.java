@@ -16,7 +16,7 @@ public class Main2630 {
 		arr = new int[N][N];
 		for(int i=0; i< N; i++) {
 			String s[] = br.readLine().split(" ");
-			for(int j=0; j < N;j++) {
+			for(int j=0; j < N;j++) { 
 				arr[i][j] = Integer.parseInt(s[j]);
 			}
 		}
