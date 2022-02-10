@@ -20,6 +20,7 @@ public class Main2630 {
 				arr[i][j] = Integer.parseInt(s[j]);
 			}
 		}
+		//오늘은 과제 제출로 커밋 휴식
 		fun(0,0,N);
 		
 		bw.write(wCnt+"\n"+bCnt);
