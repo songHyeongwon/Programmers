@@ -1,4 +1,4 @@
-package chap03;
+package Practice.chap03;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Comparator;

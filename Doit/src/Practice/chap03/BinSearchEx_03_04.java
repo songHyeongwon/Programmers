@@ -1,4 +1,4 @@
-package chap03;
+package Practice.chap03;
 import java.util.Scanner;
 // 이진검색 (검색과정을 자세히 출력함)
 

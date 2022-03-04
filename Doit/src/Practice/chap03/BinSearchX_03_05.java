@@ -1,4 +1,4 @@
-package chap03;
+package Practice.chap03;
 import java.util.Scanner;
 // 이진검색 (같은 맨 앞 요소를 찾습니다)
 
