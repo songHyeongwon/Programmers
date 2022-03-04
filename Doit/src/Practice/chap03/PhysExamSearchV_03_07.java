@@ -52,5 +52,6 @@ class PhysExamSearchV_03_07 {
 			System.out.println("그 값은 " + "x[" + idx + "]에 있습니다.");
 			System.out.println("데이터：" + x[idx]);
 		}
+		stdIn.close();
 	}
 }
