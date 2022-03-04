@@ -1,4 +1,4 @@
-package chap03;
+package Practice.chap03;
 import java.util.Scanner;
 // 어떤 값을 갖는 배열 안의 모든 요소를 다른 배열에 복사함
 
@@ -34,5 +34,6 @@ class SearchIndex_03_03 {
 		else
 			for (int i = 0; i < count; i++)
 				System.out.println("그 값은 " + "x[" + y[i] + "]에 있습니다.");
+		stdIn.close();
 	}
 }

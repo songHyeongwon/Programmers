@@ -1,4 +1,4 @@
-package chap03;
+package Practice.chap03;
 import java.util.Scanner;
 // 선형 검색(보초법：for문을 사용하여 구현)
 
@@ -35,5 +35,6 @@ class SeqSearchSenFor_03_01 {
 			System.out.println("그 값의 요소가 없습니다.");
 		else
 			System.out.println("그 값은 x[" + idx + "]에 있습니다.");
+		stdIn.close();
 	}
 }

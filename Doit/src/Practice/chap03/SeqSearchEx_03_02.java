@@ -1,4 +1,4 @@
-package chap03;
+package Practice.chap03;
 import java.util.Scanner;
 // 선형 검색 (검색과정을 자세히 나타냄)
 
@@ -49,5 +49,6 @@ class SeqSearchEx_03_02 {
 			System.out.println("그 값의 요소가 없습니다.");
 		else
 			System.out.println(ky + "은 " + "x[" + idx + "]에 있습니다.");
+		stdIn.close();
 	}
 }
