@@ -70,5 +70,6 @@ class IntStackTesterEx_04_01 {
 				break;
 			}
 		}
+		stdIn.close();
 	}
 }
