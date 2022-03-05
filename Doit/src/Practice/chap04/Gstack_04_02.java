@@ -1,4 +1,4 @@
-package chap04;
+package Practice.chap04;
 
 public class Gstack_04_02<E> {
 	private int max; // 스택의 용량
