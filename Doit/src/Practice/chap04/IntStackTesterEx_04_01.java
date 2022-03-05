@@ -1,4 +1,4 @@
-package chap04;
+package Practice.chap04;
 import java.util.Scanner;
 
 class IntStackTesterEx_04_01 {

@@ -1,4 +1,4 @@
-package chap04;
+package Practice.chap04;
 
 public class IntStackX_04_03 {
 	private int max; // 스택의 용량 (A・B의 합계)

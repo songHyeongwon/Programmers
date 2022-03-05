@@ -1,4 +1,4 @@
-package chap04;
+package Practice.chap04;
 
 public class IntDeque_04_07 {
 	private int max; // 덱(deck)의 용량

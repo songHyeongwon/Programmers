@@ -1,4 +1,5 @@
-package chap04;
+package Practice.chap04;
+
 // int형 큐(링 버퍼(ring buffer)를 사용하지 않음)
 
 public class IntAryQueue_04_04 {
