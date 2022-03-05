@@ -1,4 +1,4 @@
-package chap04;
+package Practice.chap04;
 
 public class Gqueue_04_06<E> {
 	// 실행할 때 예외：큐가 비어 있음
