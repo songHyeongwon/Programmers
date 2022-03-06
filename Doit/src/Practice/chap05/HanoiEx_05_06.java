@@ -1,4 +1,4 @@
-package chap05;
+package Practice.chap05;
 import java.util.Scanner;
 // 하노이의 탑(기둥 이름을 문자열로 나타냄)
 
@@ -24,5 +24,6 @@ class HanoiEx_05_06 {
 		int n = stdIn.nextInt();
 
 		move(n, 1, 3); // 1기둥에 쌓인 n개를 3기둥에 옮김
+		stdIn.close();
 	}
 }

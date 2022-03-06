@@ -1,4 +1,4 @@
-package chap05;
+package Practice.chap05;
 import java.util.Scanner;
 // 배열의 모든 요소의 최대 공약수를 구합니다.
 
@@ -39,5 +39,6 @@ class GCDArray_05_03 {
 		}
 
 		System.out.println("최대 공약수는 " + gcdArray(x, 0, num) + "입니다.");
+		stdIn.close();
 	}
 }

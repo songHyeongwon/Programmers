@@ -1,4 +1,4 @@
-package chap05;
+package Practice.chap05;
 import java.util.Scanner;
 // 하노이의 탑(비재귀적으로 구현)
 
@@ -54,5 +54,6 @@ class HanoiN_05_07 {
 		int n = stdIn.nextInt();
 
 		move(n, 1, 3); // 1기둥에 쌓인 n 개를 3기둥에 옮김
+		stdIn.close();
 	}
 }

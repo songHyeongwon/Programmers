@@ -24,5 +24,6 @@ class EuclidGCDEx_05_02 {
 		int y = stdIn.nextInt();
 
 		System.out.println("최대 공약수는 " + gcd(x, y) + "입니다.");
+		stdIn.close();
 	}
 }

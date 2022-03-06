@@ -1,4 +1,4 @@
-package chap05;
+package Practice.chap05;
 import java.util.Scanner;
 // 메소드 recur3의 비재귀적구현
 
@@ -44,5 +44,6 @@ class Recur3_05_05 {
 		int x = stdIn.nextInt();
 
 		recur3(x);
+		stdIn.close();
 	}
 }
