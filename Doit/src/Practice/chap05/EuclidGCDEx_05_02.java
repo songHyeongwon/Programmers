@@ -1,4 +1,4 @@
-package chap05;
+package Practice.chap05;
 import java.util.Scanner;
 // 유클리드의 호제법에 의해 최대 공약수를 비재귀적으로 구합니다.
 

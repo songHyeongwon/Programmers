@@ -1,4 +1,4 @@
-package chap05;
+package Practice.chap05;
 // 8퀸 문제를 비재귀적으로 풀이합니다(체스 판을 □와 ■로 나타냄).
 
 class EightQueenN_05_09 {

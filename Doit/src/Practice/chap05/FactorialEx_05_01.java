@@ -1,4 +1,4 @@
-package chap05;
+package Practice.chap05;
 import java.util.Scanner;
 // 팩토리얼 값을 비재귀적으로 구합니다.
 
