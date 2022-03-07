@@ -1,4 +1,4 @@
-package chap06;
+package Practice.chap06;
 import java.util.Scanner;
 
 class BubbleSortEx2_06_03 {
@@ -54,5 +54,6 @@ class BubbleSortEx2_06_03 {
 		}
 
 		bubbleSort(x, nx); // 배열 x를 단순교환정렬
+		stdIn.close();
 	}
 }
