@@ -1,4 +1,4 @@
-package chap06;
+package Practice.chap06;
 import java.util.Scanner;
 // 퀵정렬(머리/중앙/꼬리요소를 정렬하여 중앙값을 피벗으로 합니다. : 비재귀버전)
 
@@ -102,5 +102,6 @@ class QuickSortEx4B_06_15 {
 		System.out.println("오름차순으로 정렬했습니다.");
 		for (int i = 0; i < nx; i++)
 			System.out.println("x[" + i + "] = " + x[i]);
+		stdIn.close();
 	}
 }

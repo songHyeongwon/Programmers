@@ -1,4 +1,4 @@
-package chap06;
+package Practice.chap06;
 // int형 스택
 
 public class IntStack {

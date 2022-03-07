@@ -1,4 +1,4 @@
-package chap06;
+package Practice.chap06;
 import java.util.Scanner;
 
 class QuickSortOverload_06_10 {
@@ -53,5 +53,6 @@ class QuickSortOverload_06_10 {
 		System.out.println("오름차순으로 정렬했습니다.");
 		for (int i = 0; i < nx; i++)
 			System.out.println("x[" + i + "]＝" + x[i]);
+		stdIn.close();
 	}
 }

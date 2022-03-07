@@ -1,4 +1,4 @@
-package chap06;
+package Practice.chap06;
 import java.util.Scanner;
 // 퀵정렬(임의로 추출한 ３요소의 중앙값을 피벗으로 합니다. : 비재귀버전)
 
@@ -102,5 +102,6 @@ class QuickSortEx3B_06_14 {
 		System.out.println("오름차순으로 정렬했습니다.");
 		for (int i = 0; i < nx; i++)
 			System.out.println("x[" + i + "] = " + x[i]);
+		stdIn.close();
 	}
 }

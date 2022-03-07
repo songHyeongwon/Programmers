@@ -1,4 +1,4 @@
-package chap06;
+package Practice.chap06;
 import java.util.Scanner;
 // 퀵정렬(요솟수가  9이하면 단순삽입정렬로 바꿈：비재귀버전)
 
@@ -85,5 +85,6 @@ class QuickSortEx2B_06_13 {
 		System.out.println("오름차순으로 정렬했습니다.");
 		for (int i = 0; i < nx; i++)
 			System.out.println("x[" + i + "] = " + x[i]);
+		stdIn.close();
 	}
 }

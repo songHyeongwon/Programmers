@@ -1,4 +1,4 @@
-package chap06;
+package Practice.chap06;
 import java.util.Scanner;
 // 셸정렬 버전1 (요소의 옮김 횟수를 반환)
 
@@ -38,5 +38,6 @@ class ShellSortEx1_06_09 {
 		for (int i = 0; i < nx; i++)
 			System.out.println("x[" + i + "]＝" + x[i]);
 		System.out.println("요소의 옮김횟수는 " + count + "회입니다.");
+		stdIn.close();
 	}
 }

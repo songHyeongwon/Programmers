@@ -1,4 +1,4 @@
-package chap06;
+package Practice.chap06;
 import java.util.Scanner;
 
 class SelectionSortEx_06_06 {
@@ -41,5 +41,6 @@ class SelectionSortEx_06_06 {
 		}
 
 		selectionSort(x, nx); // 배열 x를 단순선택정렬
+		stdIn.close();
 	}
 }
