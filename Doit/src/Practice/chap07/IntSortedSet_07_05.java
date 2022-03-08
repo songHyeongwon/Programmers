@@ -1,4 +1,4 @@
-package chap07;
+package Practice.chap07;
 
 public class IntSortedSet_07_05 {
 	private int max; // 집합의 용량

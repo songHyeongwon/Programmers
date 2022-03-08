@@ -1,4 +1,4 @@
-package chap07;
+package Practice.chap07;
 // 해당 정답 메서드는 소스 코드의 맨 아래쪽에 있습니다.
 
 public class IntSet_07_04 {
