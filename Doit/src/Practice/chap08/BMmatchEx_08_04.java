@@ -1,4 +1,4 @@
-package chap08;
+package Practice.chap08;
 import java.util.Scanner;
 // Boyer-Moore법에 의한 문자열 검색 (조사과정을 자세히 나타냄)
 
@@ -78,6 +78,7 @@ class BMmatchEx_08_04 {
 			}
 			pt += skip[txt.charAt(pt)];
 		}
+		System.out.println(count);
 		return -1; // 검색실패
 	}
 
@@ -104,5 +105,6 @@ class BMmatchEx_08_04 {
 			System.out.println("텍스트：" + s1);
 			System.out.printf(String.format("패턴：%%%ds\n", len), s2);
 		}
+		stdIn.close();
 	}
 }

@@ -1,4 +1,4 @@
-package chap08;
+package Practice.chap08;
 import java.util.Scanner;
 // 브루트-포스법에 의한 문자열 검색 (조사과정을 자세히 나타냄)
 
@@ -66,6 +66,8 @@ class BFmatchEx_08_01 {
 			for (int i = 0; i < idx; i++)
 				len += s1.substring(i, i + 1).getBytes().length;
 			len += s2.length();
+			System.out.println(len);
 		}
+		stdIn.close();
 	}
 }

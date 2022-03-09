@@ -1,4 +1,4 @@
-package chap08;
+package Practice.chap08;
 import java.util.Scanner;
 // 브루트-포스법에 의한 문자열 검색(같은 문자열을 꼬리쪽부터 검색)
 
@@ -44,5 +44,6 @@ class BFmatchRev_08_02 {
 			System.out.println("텍스트：" + s1);
 			System.out.printf(String.format("패턴：%%%ds\n", len), s2);
 		}
+		stdIn.close();
 	}
 }
