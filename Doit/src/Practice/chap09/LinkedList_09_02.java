@@ -1,4 +1,4 @@
-package chap09;
+package Practice.chap09;
 import java.util.Comparator;
 //해당 정답 메서드는 소스 코드의 맨 아래쪽에 있습니다.
 
