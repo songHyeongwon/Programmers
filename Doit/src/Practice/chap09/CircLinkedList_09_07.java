@@ -1,4 +1,4 @@
-package chap09;
+package Practice.chap09;
 import java.util.Comparator;
 // 연결 리스트 클래스  (원형 리스트 버전)
 
