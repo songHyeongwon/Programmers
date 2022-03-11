@@ -1,4 +1,4 @@
-package chap10;
+package Practice.chap10;
 import java.util.Comparator;
 // 이진검색트리
 // 해당 정답 메서드는 소스 코드의 맨 아래쪽에 있습니다.

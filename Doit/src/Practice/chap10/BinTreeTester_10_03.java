@@ -1,4 +1,4 @@
-package chap10;
+package Practice.chap10;
 import java.util.Scanner;
 import java.util.Comparator;
 // 이진검색트리 클래스 BinTree<K,V>의 사용 예 (comparator를 사용)
