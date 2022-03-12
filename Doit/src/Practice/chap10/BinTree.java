@@ -2,7 +2,7 @@ package Practice.chap10;
 import java.util.Comparator;
 // 이진검색트리
 
-import Practice.chap10.BinTree_10_01.Node;
+//import Practice.chap10.BinTree_10_01.Node;
 
 public class BinTree<K,V> {
 	// 노드
