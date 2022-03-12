@@ -1,5 +1,5 @@
-package chap11;
-import chap11.ChainHash.Node;
+package Practice.chap11;
+import Practice.chap11.ChainHash.Node;
 
 public class ChainHash<K,V> {
 	// 해시를 구성하는 노드
