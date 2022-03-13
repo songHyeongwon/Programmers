@@ -1,4 +1,4 @@
-package chap11;
+package Practice.chap11;
 import java.util.Scanner;
 // 오픈주소법에 의한 해시의 사용 예 (키는 이름)
 
