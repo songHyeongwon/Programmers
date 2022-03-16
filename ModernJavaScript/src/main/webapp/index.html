@@ -4,29 +4,46 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
+<script type="text/javascript">
+	function hrefInnerHTML() {
+		var list = document.getElementsByName("href");
+		list.forEach(el => {
+			el.innerHTML = el.getAttribute("href");
+		});
+		
+	}
+</script>
+<body onload="hrefInnerHTML()">
 	hello Wored
 	<br/>
-	<a href="./ch02/factorial.html">ch02/factorial.html</a><br/>
-	<a href="./ch02/factorial-write.html">ch02/factorial-write.html</a><br/>
-	<a href="./ch02/2-3/factorial2.html">ch02/2-3/factorial2.html</a><br/>
-	
-	<a href="./ch06/6-1.html">ch06/6-1.html</a><br/>
-	<a href="./ch06/6-2.html">ch06/6-2.html</a><br/>
-	<a href="./ch06/6-3.html">ch06/6-3.html</a><br/>
-	<a href="./ch06/6-4.html">ch06/6-4.html</a><br/>
-	<a href="./ch06/6-5.html">ch06/6-5.html</a><br/>
-	<a href="./ch06/6-5-1.html">ch06/6-5-1.html</a><br/>
-	<a href="./ch06/6-5-2.html">ch06/6-5-2.html</a><br/>
-	<a href="./ch06/6-5-3.html">ch06/6-5-3.html</a><br/>
-	<a href="./ch06/6-5-4.html">ch06/6-5-4.html</a><br/>
-	<a href="./ch06/6-5-5.html">ch06/6-5-5.html</a><br/>
-	<a href="./ch06/6-5-6.html">ch06/6-5-6.html</a><br/>
-	<a href="./ch06/6-5-7.html">ch06/6-5-7.html</a><br/>
-	<a href="./ch06/6-6.html">ch06/6-6.html</a><br/>
-	<a href="./ch06/6-6-1.html">ch06/6-6-1.html</a><br/>
-	<a href="./ch06/6-6-2.html">ch06/6-6-2.html</a><br/>
-	<a href="./ch06/6-7.html">ch06/6-7.html</a><br/>
-	<a href="./ch06/6-8.html">ch06/6-8.html</a><br/>
+	<a name="href" href="./ch02/factorial.html"></a><br/>
+	<a name="href" href="./ch02/factorial-write.html"></a><br/>
+	<a name="href" href="./ch02/2-3/factorial2.html"></a><br/>
+	<br/>
+	<a name="href" href="./ch06/6-1.html"></a><br/>
+	<a name="href" href="./ch06/6-2.html"></a><br/>
+	<a name="href" href="./ch06/6-3.html"></a><br/>
+	<a name="href" href="./ch06/6-4.html"></a><br/>
+	<a name="href" href="./ch06/6-5.html"></a><br/>
+	<a name="href" href="./ch06/6-5-1.html"></a><br/>
+	<a name="href" href="./ch06/6-5-2.html"></a><br/>
+	<a name="href" href="./ch06/6-5-3.html"></a><br/>
+	<a name="href" href="./ch06/6-5-4.html"></a><br/>
+	<a name="href" href="./ch06/6-5-5.html"></a><br/>
+	<a name="href" href="./ch06/6-5-6.html"></a><br/>
+	<a name="href" href="./ch06/6-5-7.html"></a><br/>
+	<a name="href" href="./ch06/6-6.html"></a><br/>
+	<a name="href" href="./ch06/6-6-1.html"></a><br/>
+	<a name="href" href="./ch06/6-6-2.html"></a><br/>
+	<a name="href" href="./ch06/6-7.html"></a><br/>
+	<a name="href" href="./ch06/6-8.html"></a><br/>
+	<br/>
+	<a name="href" href="./ch07/7-10.html"></a><br/>
+	<a name="href" href="./ch07/7-12.html"></a><br/>
+	<a name="href" href="./ch07/7-12-1.html"></a><br/>
+	<a name="href" href="./ch07/7-13.html"></a><br/>
+	<a name="href" href="./ch07/7-2.html"></a><br/>
+	<a name="href" href="./ch07/7-8.html"></a><br/>
+	<a name="href" href="./ch07/원판_암호기.html"></a><br/>
 </body>
 </html>
