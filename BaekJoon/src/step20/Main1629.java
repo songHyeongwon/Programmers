@@ -31,6 +31,6 @@ public class Main1629 {
 		if(exponent % 2 == 1) {
 			return (temp * temp % C) * A % C;
 		}
-		return temp * temp % C;
+		return temp * temp % C; 
 	}
 }
