@@ -40,7 +40,7 @@ public class Main2630 {
 				rowSum += arr[i][j];
 			}
 		}
-		//하얀색 파란색일경우 반환
+		//하얀색 파란색일경우 반환 
 		if(rowSum == 0) {
 			wCnt++;
 			return;
