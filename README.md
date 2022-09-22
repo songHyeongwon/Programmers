@@ -14,6 +14,7 @@ kakao 블라인드(2021.09.11 합격)<br>
 devMatching(2021.10.16 불합격)<br>
 naverFinancial(2021.10.30 합격)<br>
 LINE Fintech(2021.11.27 불합격)<br>
+삼쩜삼(2022.09.18 합격)<br>
 <br>
 
 <h3> BaekJoon </h3>
