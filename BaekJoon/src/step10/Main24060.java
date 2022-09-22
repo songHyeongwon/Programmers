@@ -3,7 +3,7 @@ package step10;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main24060 {
+public class Main24060 { 
 	static int dpCnt = 0;
 	static int K = 0;
 	static int[] arr = null;
