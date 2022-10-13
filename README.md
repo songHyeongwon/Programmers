@@ -6,7 +6,7 @@
 
 # 알고리즘 코딩테스트 모음
 <h2> 현재 프로젝트 사항 </h2>
-<h3> MyProject 코딩시험 </h3>
+<h3> MyProject 코딩시험 </h3>9
 kakaoBank(2021.08.14 합격)<br>
 wadiz(2021.08.21 불합격)<br>
 naver(2021.08.29 불합격)<br>
@@ -15,6 +15,7 @@ devMatching(2021.10.16 불합격)<br>
 naverFinancial(2021.10.30 합격)<br>
 LINE Fintech(2021.11.27 불합격)<br>
 삼쩜삼(2022.09.18 합격)<br>
+2차 불합
 <br>
 
 <h3> BaekJoon </h3>
