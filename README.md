@@ -16,6 +16,7 @@ naverFinancial(2021.10.30 합격)<br>
 LINE Fintech(2021.11.27 불합격)<br>
 삼쩜삼(2022.09.18 합격)<br>
 2차 불합
+카카오 경력직 테스트(불합)
 <br>
 
 <h3> BaekJoon </h3>
