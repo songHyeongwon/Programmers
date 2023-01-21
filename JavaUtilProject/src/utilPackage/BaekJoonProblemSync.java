@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.net.URLConnection;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -95,7 +96,11 @@ public class BaekJoonProblemSync {
 		String sUrl = "https://www.acmicpc.net/step/" + step;
 		try {
 			URL url = new URL(sUrl);
-			BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
+			URLConnection uc = url.openConnection();
+			uc.addRequestProperty("User-Agent", 
+			"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)");
+			
+			BufferedReader br = new BufferedReader(new InputStreamReader(uc.getInputStream()));
 			StringBuffer buf = new StringBuffer();
 			
 			String line ="";
