@@ -9,7 +9,7 @@ public class Main10809 {
 		char k = 'a';
 		for (int i = 0; i < 26; i++) {
 			System.out.print(s.indexOf(k+i) + " ");
-		}
+		} 
 		sc.close();
 	}
 }
