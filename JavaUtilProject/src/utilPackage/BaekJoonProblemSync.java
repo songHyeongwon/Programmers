@@ -15,7 +15,7 @@ import java.util.List;
 
 public class BaekJoonProblemSync {
 	public static String basePatn = "C:/Temp/workspace/Programmers/BaekJoon/src/";
-	public static int lastStep = 54;
+	public static int lastStep = 60;
 	public static void main(String[] args) {
 		BaekJoonProblemSync t3 = new BaekJoonProblemSync();
 		t3.run();
