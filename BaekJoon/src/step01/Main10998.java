@@ -8,6 +8,7 @@ public class Main10998 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		System.out.println(a*b);
-		sc.close();
+		sc.close(); 
+		
 	}
 }
