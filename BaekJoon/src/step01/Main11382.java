@@ -9,6 +9,7 @@ public class Main11382 {
 		long b = sc.nextLong();
 		long c = sc.nextLong();
 		sc.close();
-		System.out.println(a + b + c);
+		System.out.println(a + b + c); 
+		
 	}
 }
