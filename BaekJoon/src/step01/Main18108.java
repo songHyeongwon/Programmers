@@ -7,6 +7,7 @@ public class Main18108 {
 		int yranTem = 543;
 		Scanner sc = new Scanner(System.in);
 		System.out.println(sc.nextInt() - yranTem);
-		sc.close();
+		sc.close(); 
+		
 	}
 }
