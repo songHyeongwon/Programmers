@@ -27,5 +27,6 @@ public class Main2563 {
 		
 		System.out.println(count);
 		sc.close();
-	}
+		
+	} 
 }
