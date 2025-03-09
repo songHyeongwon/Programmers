@@ -20,7 +20,8 @@ public class Main2566 {
 			}
 		}
 		sc.close();
-		System.out.println(max);
+		System.out.println(max); 
 		System.out.println(x + " " + y);
+		
 	}
 }
