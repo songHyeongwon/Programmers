@@ -22,7 +22,7 @@ public class Main2738 {
 			System.out.println();
 		}
 		
-		
 		sc.close();
+		
 	}
 }
