@@ -12,5 +12,6 @@ public class Main8393 {
 		}
 		System.out.println(temp);
 		sc.close();
+		
 	}
 }
