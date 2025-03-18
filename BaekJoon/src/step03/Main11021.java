@@ -12,5 +12,6 @@ public class Main11021 {
 			System.out.println(String.format("Case #%d: %d", i , x+y));
 		}
 		sc.close();
+		
 	}
 }
