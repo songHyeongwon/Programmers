@@ -15,5 +15,6 @@ public class Main25304 {
 		sc.close();
 		if(x==0) System.out.println("Yes");
 		else System.out.println("No");
+		
 	}
 }
