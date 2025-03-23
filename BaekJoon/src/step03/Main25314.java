@@ -13,5 +13,6 @@ public class Main25314 {
 		buf.append("int");
 		System.out.println(buf.toString());
 		sc.close();
+		
 	}
 }
