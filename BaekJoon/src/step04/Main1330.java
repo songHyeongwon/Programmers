@@ -14,5 +14,6 @@ public class Main1330 {
 		
 		if(a == b) System.out.println("==");
 		sc.close();
+		
 	}
 }
