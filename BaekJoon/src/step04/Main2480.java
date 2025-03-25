@@ -41,5 +41,6 @@ public class Main2480 {
 		
 		System.out.println(result);
 		sc.close();
+		
 	}
 }
