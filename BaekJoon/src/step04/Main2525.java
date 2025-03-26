@@ -13,5 +13,6 @@ public class Main2525 {
 		int nextM = temp%60;
 		int nextH = (temp - temp%60) / 60;
 		System.out.println(nextH%24 + " " + nextM);
+		
 	}
 }
