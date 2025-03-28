@@ -17,5 +17,6 @@ public class Main2884 {
 
 		System.out.println(date.getHours() +" " +date.getMinutes());
 		sc.close();
+		
 	}
 }
