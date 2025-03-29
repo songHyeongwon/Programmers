@@ -28,5 +28,6 @@ public class Main9498 {
 			break;
 		}
 		sc.close();
+		
 	}
 }
