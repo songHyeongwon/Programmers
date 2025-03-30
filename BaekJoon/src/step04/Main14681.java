@@ -24,4 +24,5 @@ public class Main14681 {
 		
 		sc.close();
 	}
+	
 }
