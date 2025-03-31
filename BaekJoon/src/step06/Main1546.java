@@ -9,6 +9,7 @@ public class Main1546 {
 		int n = sc.nextInt();
 		double sum = 0;
 		double max = 0;
+		
 		for(int i = 0; i < n; i++) {
 			int temp = sc.nextInt();
 			sum += temp;
