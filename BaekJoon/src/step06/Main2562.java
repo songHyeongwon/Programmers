@@ -15,6 +15,7 @@ public class Main2562 {
 				idx = i+1;
 			}
 		}
+		
 		System.out.println(max);
 		System.out.println(idx);
 		sc.close();
