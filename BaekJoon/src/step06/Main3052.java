@@ -11,6 +11,7 @@ public class Main3052 {
 		for(int i =0; i <10; i++) {
 			set.add(sc.nextInt() % 42);
 		}
+		
 		System.out.println(set.size());
 		sc.close();
 	}
