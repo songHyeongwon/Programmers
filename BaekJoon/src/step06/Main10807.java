@@ -17,5 +17,6 @@ public class Main10807 {
 		}
 		System.out.println(count);
 		sc.close();
+		
 	}
 }
