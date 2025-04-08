@@ -11,6 +11,7 @@ public class Main10818 {
 		for(int i = 0; i < arr.length; i++) {
 			arr[i] = sc.nextInt();
 		}
+		
 		Arrays.sort(arr);
 		System.out.println(arr[0] + " " + arr[arr.length-1]);
 		sc.close();
