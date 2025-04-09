@@ -16,6 +16,7 @@ public class Main10871 {
 		for (int i = 0; i < arr.length; i++) {
 			if(arr[i] < x) System.out.print(arr[i] + " ");
 		}
+		
 		sc.close();
 	}
 }
