@@ -15,6 +15,7 @@ public class Main1152 {
 			System.out.println(aArr.length);
 		}
 		
+		
 		sc.close();
 	}
 }
