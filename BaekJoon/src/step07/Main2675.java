@@ -20,6 +20,7 @@ public class Main2675 {
 			}
 			System.out.println(buf.toString());
 		}
+		
 		sc.close();
 	}
 }
