@@ -7,6 +7,7 @@ public class Main2743 {
 		Scanner sc = new Scanner(System.in);
 		String stg = sc.nextLine();
 		System.out.println(stg.length());
+		
 		sc.close();
 	}
 }
