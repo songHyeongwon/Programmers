@@ -16,6 +16,7 @@ public class Main2908 {
 		for (int i = 0; i < bArr.length; i++) {
 			bArr[i] = b.charAt(b.length() -1 - i);
 		}
+		
 		a = new String(aArr);
 		b = new String(bArr);
 		
