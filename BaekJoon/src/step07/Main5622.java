@@ -22,6 +22,7 @@ public class Main5622 {
 			}
 			
 		}
+		
 		System.out.println(timeSum);
 		sc.close();
 	}
