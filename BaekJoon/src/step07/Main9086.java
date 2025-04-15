@@ -7,6 +7,7 @@ public class Main9086 {
 		Scanner sc = new Scanner(System.in);
 		int row = sc.nextInt();
 		sc.nextLine();
+		
 		for (int i = 0; i < row; i++) {
 			String stg = sc.nextLine();
 			System.out.print(stg.charAt(0));
