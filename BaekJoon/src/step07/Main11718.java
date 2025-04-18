@@ -17,6 +17,7 @@ public class Main11718 {
             bw.newLine();
         	temp = br.readLine();
 		}
+        
         bw.flush();
         bw.close();
 	}
