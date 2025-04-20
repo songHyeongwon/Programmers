@@ -8,6 +8,7 @@ public class Main27866 {
 		String stg = sc.nextLine();
 		int i = sc.nextInt();
 		System.out.println(stg.charAt(i-1));
+		
 		sc.close();
 	}
 }
