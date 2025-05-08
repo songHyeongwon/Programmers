@@ -8,8 +8,8 @@ public class Main2292 {
 		int n = sc.nextInt();
 		int count = 1;
 		int result = 1;
-		while(n > count) {
-			count += (6*result);
+		while (n > count) {
+			count += (6 * result);
 			result++;
 		}
 		System.out.println(result);
