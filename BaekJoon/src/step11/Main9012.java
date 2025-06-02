@@ -13,19 +13,20 @@ public class Main9012 {
 		}
 		sc.close();
 	}
-	
+
 	public static String result(String k) {
 		Stack<Character> statc = new Stack<Character>();
 		statc.add('(');
 		for (int i = 0; i < k.length(); i++) {
-			if(statc.isEmpty()) return "NO";
-			if(k.charAt(i) == '(') {
+			if (statc.isEmpty())
+				return "NO";
+			if (k.charAt(i) == '(') {
 				statc.add('(');
 			} else {
 				statc.pop();
 			}
 		}
-		if(statc.size() == 1 && statc.pop() == '(') {
+		if (statc.size() == 1 && statc.pop() == '(') {
 			return "YES";
 		} else {
 			return "NO";
