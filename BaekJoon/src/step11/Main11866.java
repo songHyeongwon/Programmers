@@ -14,14 +14,14 @@ public class Main11866 {
 		Queue<Integer> queue = new LinkedList<Integer>();
 		int[] arr = new int[N];
 		for (int i = 0; i < N; i++) {
-			queue.add(i+1);
+			queue.add(i + 1);
 		}
 		int temp = 1;
 		int queueNum = 0;
 		int arrIndex = 0;
-		while(!queue.isEmpty()) {
+		while (!queue.isEmpty()) {
 			queueNum = queue.poll();
-			if(temp++ % K == 0) {
+			if (temp++ % K == 0) {
 				arr[arrIndex++] = queueNum;
 			} else {
 				queue.add(queueNum);
