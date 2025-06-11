@@ -12,13 +12,13 @@ public class Main1932 {
 				dp[i][j] = sc.nextInt();
 			}
 		}
-		
-		for (int i = n-1; i > 0; i--) {
+
+		for (int i = n - 1; i > 0; i--) {
 			for (int j = 0; j < i; j++) {
-				dp[i-1][j] += Math.max(dp[i][j], dp[i][j+1]);
+				dp[i - 1][j] += Math.max(dp[i][j], dp[i][j + 1]);
 			}
 		}
-		
+
 		System.out.println(dp[0][0]);
 		sc.close();
 	}
