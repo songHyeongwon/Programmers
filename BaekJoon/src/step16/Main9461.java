@@ -12,16 +12,16 @@ public class Main9461 {
 		arr[4] = 2;
 		arr[5] = 3;
 		for (int i = 6; i < arr.length; i++) {
-			arr[i] = arr[i-3] + arr[i-2];
-		}		
-		Scanner sc = new Scanner(System.in);
-		
-		int n = sc.nextInt();
-		
-		while (n-- > 0) {
-			System.out.println(arr[sc.nextInt()-1]);
+			arr[i] = arr[i - 3] + arr[i - 2];
 		}
-		
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+
+		while (n-- > 0) {
+			System.out.println(arr[sc.nextInt() - 1]);
+		}
+
 		sc.close();
 	}
 }
