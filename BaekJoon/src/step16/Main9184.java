@@ -12,7 +12,7 @@ public class Main9184 {
 			int b = sc.nextInt();
 			int c = sc.nextInt();
 			if (a == -1 && b == -1 && c == -1) {
-				break;
+				break; 
 			}
 			System.out.println(String.format("w(%d, %d, %d) = %d", a, b, c, w(a, b, c)));
 		}
