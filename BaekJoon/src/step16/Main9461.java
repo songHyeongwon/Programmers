@@ -16,7 +16,7 @@ public class Main9461 {
 		}
 		Scanner sc = new Scanner(System.in);
 
-		int n = sc.nextInt();
+		int n = sc.nextInt(); 
 
 		while (n-- > 0) {
 			System.out.println(arr[sc.nextInt() - 1]);
