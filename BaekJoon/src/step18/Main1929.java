@@ -7,7 +7,7 @@ public class Main1929 {
 		Scanner sc = new Scanner(System.in);
 		int M = sc.nextInt();
 		int N = sc.nextInt();
-		for (int i = M; i <= N; i++) {
+		for (int i = M; i <= N; i++) { 
 			if(getCheck(i)) {
 				System.out.println(i);
 			}
