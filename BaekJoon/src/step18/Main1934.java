@@ -8,7 +8,7 @@ public class Main1934 {
 		int N = sc.nextInt();
 		for (int i = 0; i < N; i++) {
 			int a = sc.nextInt();
-			int b = sc.nextInt();
+			int b = sc.nextInt(); 
 			System.out.println(getAns(a,b));
 		}
 		sc.close();
