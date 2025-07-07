@@ -13,7 +13,7 @@ public class Main4134 {
 			long prime = Long.parseLong(br.readLine());
 			if (prime == 0 | prime == 1) {
 				sbd.append(2).append("\n");
-				continue;
+				continue; 
 			}
 
 			while (true) {
