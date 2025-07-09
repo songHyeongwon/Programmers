@@ -9,7 +9,7 @@ public class Main4948 {
 			int count = 0;
 			int n = sc.nextInt();
 			if(n == 0) break;
-			
+			 
 			for (int i = n+1; i <= n*2; i++) {
 				if(isCheck(i)) count++;
 			}
