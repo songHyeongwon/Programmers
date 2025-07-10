@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main13241 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		long num1 = sc.nextLong();
+		long num1 = sc.nextLong(); 
 		long num2 = sc.nextLong();
 
 		long gcd = getGCD(Math.max(num1, num2), Math.min(num1, num2));
