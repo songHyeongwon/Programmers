@@ -16,7 +16,7 @@ public class Main2447 {
 		
 		arr = new int[n][n];
 		
-		star(n, 0 ,0);
+		star(n, 0 ,0); 
 		
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
