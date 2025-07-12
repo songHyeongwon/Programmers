@@ -9,7 +9,7 @@ public class Main10870 {
 		System.out.println(getPi(0, 1, 2 ,n));
 		sc.close();
 	}
-
+ 
 	private static int getPi(int a, int b, int cnt, int n) {
 		// TODO Auto-generated method stub
 		if(n == 0) return 0;
