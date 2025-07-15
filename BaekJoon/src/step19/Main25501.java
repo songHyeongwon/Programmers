@@ -11,7 +11,7 @@ public class Main25501 {
 			String s = sc.next();
 			recursionCnt = 0;
 			System.out.println(recursion(s.toCharArray() , 0 , s.length() -1 ) + " " + recursionCnt);
-		}
+		} 
 		sc.close();
 	}
 	public static int recursion(char[] s,int l, int r) {
