@@ -14,7 +14,7 @@ public class Main2485 {
         int N = Integer.parseInt(br.readLine());
 
         int[] streetTree =new int[N];
-
+ 
         for(int i = 0; i < N; i++){
             streetTree[i]=Integer.parseInt(br.readLine());
         }
