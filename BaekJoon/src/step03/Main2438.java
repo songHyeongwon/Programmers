@@ -13,6 +13,6 @@ public class Main2438 {
 			System.out.println();
 		}
 		sc.close();
-		
+
 	}
 }
