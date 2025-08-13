@@ -16,6 +16,6 @@ public class Main2439 {
 			System.out.println();
 		}
 		sc.close();
-		
+
 	}
 }
