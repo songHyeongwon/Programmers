@@ -8,10 +8,10 @@ public class Main8393 {
 		int a = sc.nextInt();
 		long temp = 0;
 		for (int i = 1; i <= a; i++) {
-			temp += i ;
+			temp += i;
 		}
 		System.out.println(temp);
 		sc.close();
-		
+
 	}
 }
