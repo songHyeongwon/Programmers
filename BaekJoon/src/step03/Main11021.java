@@ -9,9 +9,9 @@ public class Main11021 {
 		for (int i = 1; i <= a; i++) {
 			int x = sc.nextInt();
 			int y = sc.nextInt();
-			System.out.println(String.format("Case #%d: %d", i , x+y));
+			System.out.println(String.format("Case #%d: %d", i, x + y));
 		}
 		sc.close();
-		
+
 	}
 }
