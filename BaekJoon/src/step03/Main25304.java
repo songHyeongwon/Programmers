@@ -10,11 +10,13 @@ public class Main25304 {
 		for (int i = 0; i < n; i++) {
 			int a = sc.nextInt();
 			int b = sc.nextInt();
-			x -= a*b;
+			x -= a * b;
 		}
 		sc.close();
-		if(x==0) System.out.println("Yes");
-		else System.out.println("No");
-		
+		if (x == 0)
+			System.out.println("Yes");
+		else
+			System.out.println("No");
+
 	}
 }
