@@ -10,9 +10,9 @@ public class Main2525 {
 		int next = sc.nextInt();
 		sc.close();
 		int temp = H * 60 + m + next;
-		int nextM = temp%60;
-		int nextH = (temp - temp%60) / 60;
-		System.out.println(nextH%24 + " " + nextM);
-		
+		int nextM = temp % 60;
+		int nextH = (temp - temp % 60) / 60;
+		System.out.println(nextH % 24 + " " + nextM);
+
 	}
 }
