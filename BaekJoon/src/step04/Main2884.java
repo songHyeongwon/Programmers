@@ -11,12 +11,12 @@ public class Main2884 {
 		int b = sc.nextInt();
 
 		Date date = new Date();
-		
-		date.setHours(a);
-		date.setMinutes(b-45);
 
-		System.out.println(date.getHours() +" " +date.getMinutes());
+		date.setHours(a);
+		date.setMinutes(b - 45);
+
+		System.out.println(date.getHours() + " " + date.getMinutes());
 		sc.close();
-		
+
 	}
 }
