@@ -7,7 +7,7 @@ public class Main9498 {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 
-		switch (a/10) {
+		switch (a / 10) {
 		case 10:
 			System.out.println("A");
 			break;
@@ -28,6 +28,6 @@ public class Main9498 {
 			break;
 		}
 		sc.close();
-		
+
 	}
 }
