@@ -7,13 +7,14 @@ public class Main5597 {
 		Scanner sc = new Scanner(System.in);
 		int stCnt = 30;
 		boolean[] isCheck = new boolean[stCnt];
-		
+
 		for (int i = 0; i < isCheck.length - 2; i++) {
 			isCheck[sc.nextInt() - 1] = true;
 		}
-		
+
 		for (int i = 0; i < isCheck.length; i++) {
-			if(!isCheck[i]) System.out.println(i+1);
+			if (!isCheck[i])
+				System.out.println(i + 1);
 		}
 		sc.close();
 	}
