@@ -11,15 +11,15 @@ public class Main10813 {
 		for (int i = 0; i < n; i++) {
 			arr[i] = i + 1;
 		}
-		
+
 		for (int i = 0; i < m; i++) {
 			int k = sc.nextInt();
 			int j = sc.nextInt();
-			int temp = arr[k-1];
-			arr[k - 1] = arr[j - 1]; 
+			int temp = arr[k - 1];
+			arr[k - 1] = arr[j - 1];
 			arr[j - 1] = temp;
 		}
-		
+
 		StringBuffer buf = new StringBuffer();
 		for (int temp : arr) {
 			buf.append(temp + " ");
