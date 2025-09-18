@@ -8,17 +8,17 @@ import java.io.OutputStreamWriter;
 
 public class Main11718 {
 	public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        
-        String temp = br.readLine();
-        while (temp != null) {
-        	bw.write(temp);
-            bw.newLine();
-        	temp = br.readLine();
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+		String temp = br.readLine();
+		while (temp != null) {
+			bw.write(temp);
+			bw.newLine();
+			temp = br.readLine();
 		}
-        
-        bw.flush();
-        bw.close();
+
+		bw.flush();
+		bw.close();
 	}
 }
