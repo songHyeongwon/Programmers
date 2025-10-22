@@ -10,7 +10,7 @@ public class Main25305 {
 		PriorityQueue<Integer> q = new PriorityQueue<Integer>(Collections.reverseOrder());
 		int n = sc.nextInt();
 		int k = sc.nextInt();
-		
+
 		for (int i = 0; i < n; i++) {
 			q.add(sc.nextInt());
 		}
