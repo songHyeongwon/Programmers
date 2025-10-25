@@ -6,32 +6,44 @@ import java.io.InputStreamReader;
 import java.util.Stack;
 
 public class Main28278 {
-    static Stack<Integer> stack = new Stack<>();
-    static StringBuilder sb = new StringBuilder();
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	static Stack<Integer> stack = new Stack<>();
+	static StringBuilder sb = new StringBuilder();
 
-        int N = Integer.parseInt(br.readLine()); //명령어의 수
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        while(N --> 0){
-            solution(br.readLine());
-        }
+		int N = Integer.parseInt(br.readLine()); // 명령어의 수
 
-        br.close();
+		while (N-- > 0) {
+			solution(br.readLine());
+		}
 
-        System.out.println(sb);
-    }
+		br.close();
 
-    static void solution(String query){
-        char c = query.charAt(0); 
+		System.out.println(sb);
+	}
 
-        switch (c){
-            case '1' : stack.push(Integer.parseInt(query.substring(2))); return;
-            case '2' : sb.append(stack.isEmpty() ? -1 : stack.pop()).append("\n"); return;
-            case '3' : sb.append(stack.size()).append("\n"); return;
-            case '4' : sb.append(stack.isEmpty() ? 1 : 0).append("\n"); return;
-            case '5' : sb.append(stack.isEmpty() ? -1 : stack.peek()).append("\n"); return;
-            default: break;
-        }
-    }
+	static void solution(String query) {
+		char c = query.charAt(0);
+
+		switch (c) {
+		case '1':
+			stack.push(Integer.parseInt(query.substring(2)));
+			return;
+		case '2':
+			sb.append(stack.isEmpty() ? -1 : stack.pop()).append("\n");
+			return;
+		case '3':
+			sb.append(stack.size()).append("\n");
+			return;
+		case '4':
+			sb.append(stack.isEmpty() ? 1 : 0).append("\n");
+			return;
+		case '5':
+			sb.append(stack.isEmpty() ? -1 : stack.peek()).append("\n");
+			return;
+		default:
+			break;
+		}
+	}
 }
