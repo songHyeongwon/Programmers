@@ -14,7 +14,7 @@ public class Main2579 {
 		arr = new int[301];
 		dp = new int[301];
 
-		for (int i = 1; i <= n; i++)  {
+		for (int i = 1; i <= n; i++) {
 			arr[i] = sc.nextInt();
 		}
 		dp[1] = arr[1];
