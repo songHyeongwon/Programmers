@@ -8,8 +8,8 @@ public class Main1934 {
 		int N = sc.nextInt();
 		for (int i = 0; i < N; i++) {
 			int a = sc.nextInt();
-			int b = sc.nextInt(); 
-			System.out.println(getAns(a,b));
+			int b = sc.nextInt();
+			System.out.println(getAns(a, b));
 		}
 		sc.close();
 	}
@@ -19,7 +19,7 @@ public class Main1934 {
 		int min = Math.min(a, b);
 		int cnt = 0;
 		while (true) {
-			if(min * (++cnt) % max == 0) {
+			if (min * (++cnt) % max == 0) {
 				return min * cnt;
 			}
 		}
