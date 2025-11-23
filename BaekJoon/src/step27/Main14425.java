@@ -16,7 +16,8 @@ public class Main14425 {
 			set.add(sc.nextLine());
 		}
 		for (int i = 0; i < m; i++) {
-			if(set.contains(sc.nextLine())) count++;
+			if (set.contains(sc.nextLine()))
+				count++;
 		}
 		sc.close();
 		System.out.println(count);
