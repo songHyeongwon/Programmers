@@ -11,8 +11,8 @@ public class Main10816 {
 		StringBuffer buf = new StringBuffer();
 		for (int i = 0; i < n; i++) {
 			int t = sc.nextInt();
-			if(map.containsKey(t)) {
-				map.put(t, map.get(t) +1);
+			if (map.containsKey(t)) {
+				map.put(t, map.get(t) + 1);
 			} else {
 				map.put(t, 1);
 			}
@@ -20,10 +20,10 @@ public class Main10816 {
 		int m = sc.nextInt();
 		for (int i = 0; i < m; i++) {
 			int t = sc.nextInt();
-			if(map.containsKey(t)) {
-				buf.append(map.get(t) +" ");
+			if (map.containsKey(t)) {
+				buf.append(map.get(t) + " ");
 			} else {
-				buf.append(0 +" ");
+				buf.append(0 + " ");
 			}
 		}
 		System.out.println(buf.toString());
