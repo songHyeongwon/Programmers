@@ -12,13 +12,13 @@ public class Main11047 {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = sc.nextInt();
 		}
-		
+
 		for (int i = 0; i < arr.length; i++) {
-			int coin = arr[arr.length -1 -i];
-			count += K/coin;
-			K = K%coin;
+			int coin = arr[arr.length - 1 - i];
+			count += K / coin;
+			K = K % coin;
 		}
-		
+
 		System.out.println(count);
 		sc.close();
 	}
