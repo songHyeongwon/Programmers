@@ -13,7 +13,7 @@ public class Main11399 {
 		}
 		int result = 0;
 		int befor = 0;
-		while(!queue.isEmpty()) {
+		while (!queue.isEmpty()) {
 			int temp = queue.poll();
 			temp += befor;
 			result += temp;
