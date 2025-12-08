@@ -11,15 +11,16 @@ public class Main1269 {
 		HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 		for (int i = 0; i < a + b; i++) {
 			int t = sc.nextInt();
-			if(map.containsKey(t)) {
+			if (map.containsKey(t)) {
 				map.put(t, map.get(t) + 1);
 			} else {
 				map.put(t, 1);
 			}
 		}
 		int count = 0;
-		for(Integer t : map.keySet()) {
-			if(map.get(t) == 1) count++;
+		for (Integer t : map.keySet()) {
+			if (map.get(t) == 1)
+				count++;
 		}
 		System.out.println(count);
 		sc.close();
