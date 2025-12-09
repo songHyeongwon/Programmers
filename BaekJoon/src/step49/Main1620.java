@@ -9,10 +9,10 @@ public class Main1620 {
 		StringBuffer buf = new StringBuffer();
 		int n = sc.nextInt();
 		int m = sc.nextInt();
-		
+
 		HashMap<String, Integer> numMap = new HashMap<String, Integer>();
 		HashMap<Integer, String> nameMap = new HashMap<Integer, String>();
-		
+
 		sc.nextLine();
 		for (int i = 0; i < n; i++) {
 			String name = sc.nextLine();
@@ -25,7 +25,7 @@ public class Main1620 {
 			try {
 				num = Integer.parseInt(name);
 				buf.append(nameMap.get(num) + "\n");
-			}catch (NumberFormatException e) {
+			} catch (NumberFormatException e) {
 				buf.append(numMap.get(name) + "\n");
 			}
 		}
