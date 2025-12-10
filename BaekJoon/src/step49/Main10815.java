@@ -14,7 +14,7 @@ public class Main10815 {
 		}
 		n = sc.nextInt();
 		for (int i = 0; i < n; i++) {
-			if(set.contains(sc.nextInt())) {
+			if (set.contains(sc.nextInt())) {
 				buf.append("1 ");
 			} else {
 				buf.append("0 ");
