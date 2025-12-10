@@ -14,19 +14,19 @@ public class Main1764 {
 		Set<String> set = new HashSet<String>();
 		StringBuffer buf = new StringBuffer();
 		ArrayList<String> arr = new ArrayList<String>();
-		
+
 		for (int i = 0; i < n; i++) {
 			set.add(sc.next());
 		}
 		for (int i = 0; i < m; i++) {
 			String mName = sc.next();
-			if(set.contains(mName)) {
+			if (set.contains(mName)) {
 				arr.add(mName);
 			}
 		}
 		Collections.sort(arr);
-		for(String s : arr) {
-			buf.append(s+"\n");
+		for (String s : arr) {
+			buf.append(s + "\n");
 		}
 		System.out.println(arr.size());
 		System.out.println(buf.toString());
