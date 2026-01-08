@@ -25,7 +25,7 @@ public class Main1002 {
 			return -1;// CASE1
 		} else if(pow > Math.pow(r2 + r1, 2)) {
 			return 0;//CASE 2-1
-		} else if(pow < Math.pow(r2 - r1, 2)) {
+		} else if(pow < Math.pow(r2 - r1, 2)) { 
 			return 0;//CASE 2-2
 		} else if(pow == Math.pow(r2 - r1, 2)) {
 			return 1;//CASE 3-1
