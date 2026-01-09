@@ -20,6 +20,6 @@ public class Main1003 {
 			int next = sc.nextInt();
 			System.out.println(arr[next][0] + " " + arr[next][1]);
 		}
-		sc.close();
+		sc.close(); 
 	}
 }
