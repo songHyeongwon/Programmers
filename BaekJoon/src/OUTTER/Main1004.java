@@ -36,7 +36,7 @@ public class Main1004 {
 
             Planet arr[] = new Planet[n];
 
-            // 행성 정보 초기화
+            // 행성 정보 초기화 
             for (int i = 0; i < n; i++) {
                 st = new StringTokenizer(br.readLine());
                 int x = Integer.parseInt(st.nextToken());
