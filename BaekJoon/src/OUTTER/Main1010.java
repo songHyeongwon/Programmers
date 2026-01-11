@@ -21,7 +21,7 @@ public class Main1010 {
 					N--;
 				}
 			}
-			System.out.println(temp);
+			System.out.println(temp); 
 		}
 		sc.close();
 	}
