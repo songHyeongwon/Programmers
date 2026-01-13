@@ -35,7 +35,7 @@ public class Main1021 {
 					count++;
 				}
 			} else {
-				for (int j = 0; j < deque.size() - idx; j++) {
+				for (int j = 0; j < deque.size() - idx; j++) { 
 					int temp = deque.pollLast();
 					deque.offerFirst(temp);
 					count++;
