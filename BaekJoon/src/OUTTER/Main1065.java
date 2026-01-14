@@ -27,7 +27,7 @@ public class Main1065 {
 			
 			for (int j = 1; j < temp.length(); j++) {
 				if((Character.getNumericValue(temp.charAt(j-1)) + i) == Character.getNumericValue(temp.charAt(j))) {
-					result = true;
+					result = true; 
 				} else {
 					result = false;
 					break;
