@@ -13,7 +13,7 @@ public class Main1676 {
 			count += N/5;
 			N /=5;
 		}
-		System.out.println(count);
+		System.out.println(count); 
 		sc.close();
 	}
 }
