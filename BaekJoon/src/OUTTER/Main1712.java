@@ -12,7 +12,7 @@ public class Main1712 {
 		if(b >= c) System.out.println(-1);
 		else {
 			System.out.println(a / (c-b) +1);
-		}
+		} 
 		sc.close();
 	}
 }
