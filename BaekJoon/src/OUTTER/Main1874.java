@@ -15,7 +15,7 @@ public class Main1874 {
 			arr[i] = sc.nextInt();
 		}
 		sc.close();
-		
+		 
 		StringBuffer buf = new StringBuffer();
 		
 		for (int i = 0; i < arr.length; i++) {
