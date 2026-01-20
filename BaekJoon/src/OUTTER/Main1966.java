@@ -23,7 +23,7 @@ public class Main1966 {
 				temp[1] = point;
 				pQueue.add(point);
 				queue.add(temp);
-			}
+			} 
 			
 			int count = 0;
 			k : while(!queue.isEmpty()) {
