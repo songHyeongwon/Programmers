@@ -17,7 +17,7 @@ public class Main2004 {
 	public static int five(int a) {
 		int count = 0;
 		while(a >= 5) {
-			count += a/5;
+			count += a/5; 
 			a /= 5;
 		}
 		return count;
