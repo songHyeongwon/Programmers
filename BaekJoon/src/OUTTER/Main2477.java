@@ -22,7 +22,7 @@ public class Main2477 {
 			int now = Integer.parseInt(st.nextToken());
 			max = Math.max(now*pre, max);
 			sum += now*pre;
-			pre = now;
+			pre = now; 
 		}
 		max = Math.max(first*pre, max);
 		sum += first*pre;
