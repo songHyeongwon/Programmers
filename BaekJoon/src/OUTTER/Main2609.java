@@ -24,7 +24,7 @@ public class Main2609 {
 			if(min * i % max == 0) {
 				ans2 = min * i;
 				break;
-			}
+			} 
 		}
 		System.out.println(ans1);
 		System.out.println(ans2);//최소 공배수
