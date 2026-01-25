@@ -12,6 +12,6 @@ public class Main2741 {
 			bw.write(i + "\n");
 		}
 		bw.close();//스트림을 닫음
-		br.close();
+		br.close(); 
 	}
 }
