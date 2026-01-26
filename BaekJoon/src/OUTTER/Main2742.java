@@ -13,5 +13,5 @@ public class Main2742 {
 		}
 		bw.close();//스트림을 닫음
 		br.close();
-	}
+	} 
 }
