@@ -21,7 +21,7 @@ public class Main2775 {
 				}
 				arr[i][j] = sum;
 			}
-		}
+		} 
 		
 		for (int i = 0; i < T; i++) {
 			int k = sc.nextInt();
