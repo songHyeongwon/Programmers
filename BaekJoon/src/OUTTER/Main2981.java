@@ -14,7 +14,7 @@ public class Main2981 {
 		}
 		Arrays.sort(arr);
 		
-		int gap = arr[1] - arr[0];
+		int gap = arr[1]  - arr[0];
 		
 		for (int i = 2; i < N; i++) {
 			gap = gcd(gap , arr[i] - arr[i-1]);
