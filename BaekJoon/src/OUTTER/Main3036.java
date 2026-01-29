@@ -16,7 +16,7 @@ public class Main3036 {
 		}
 		
 		sc.close();
-	}
+	} 
 	//최대공약수 
 	private static int gcd(int a, int b) {
 		while(b != 0) {
