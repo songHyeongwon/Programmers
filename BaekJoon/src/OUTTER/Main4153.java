@@ -22,7 +22,7 @@ public class Main4153 {
 			} else {
 				System.out.println("wrong");
 			}
-		}
+		} 
 		sc.close();
 	}
 }
