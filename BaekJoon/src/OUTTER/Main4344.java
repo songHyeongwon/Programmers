@@ -16,7 +16,7 @@ public class Main4344 {
 			for (int j = 0; j < row; j++) {
 				rowArr[j] = sc.nextDouble();
 				ave += rowArr[j];
-			}
+			} 
 			ave = ave / row;
 			int count = 0;
 			for (int j = 0; j < row; j++) {
