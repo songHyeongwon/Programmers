@@ -20,6 +20,6 @@ public class Main4673 {
 		for (int j = 0; j < temp.length(); j++) {
 			result += Character.getNumericValue(temp.charAt(j));
 		}
-		return result;
+		return result; 
 	}
 }
