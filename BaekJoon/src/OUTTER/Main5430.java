@@ -23,7 +23,7 @@ public class Main5430 {
 				deque.add(Integer.parseInt(arr[j]));
 			}
 			fun(fun , deque);
-		}
+		} 
 		System.out.println(sb.toString());
 		sc.close();
 	}
