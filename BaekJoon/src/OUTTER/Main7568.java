@@ -22,7 +22,7 @@ public class Main7568 {
 						rank++;
 					}
 				}
-			}
+			} 
 			System.out.print(rank+" ");
 		}
 		
