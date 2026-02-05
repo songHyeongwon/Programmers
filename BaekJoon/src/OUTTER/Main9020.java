@@ -21,7 +21,7 @@ public class Main9020 {
 			}
 			System.out.println(a + " " + b);
 			
-		}
+		} 
 		sc.close();
 	}
 	
