@@ -17,6 +17,6 @@ public class Main9095 {
 		for (int i = 0; i < N; i++) {
 			System.out.println(dp[sc.nextInt()]);
 		}
-		sc.close();
+		sc.close(); 
 	}
 }
