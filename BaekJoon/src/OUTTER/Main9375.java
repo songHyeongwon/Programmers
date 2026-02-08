@@ -27,7 +27,7 @@ public class Main9375 {
 				mapSize *= map.get(k)+1;//안입는 경우 +1
 			}
 			System.out.println(mapSize -1);//다안입는 경우 제외 -1
-		}
+		} 
 		
 		sc.close();
 	}
