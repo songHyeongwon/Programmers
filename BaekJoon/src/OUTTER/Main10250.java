@@ -28,7 +28,7 @@ public class Main10250 {
 					System.out.println("0" + k);
 				} else {
 					System.out.println(k);
-				}
+				} 
 			}
 			
 		}
