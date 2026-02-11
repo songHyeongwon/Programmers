@@ -8,6 +8,6 @@ public class Main10757 {
 		BigInteger a = sc.nextBigInteger();
 		BigInteger b = sc.nextBigInteger();
 		System.out.println(a.add(b));
-		sc.close();
+		sc.close(); 
 	}
 }
