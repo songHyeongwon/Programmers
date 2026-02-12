@@ -17,7 +17,7 @@ public class Main10828 {
 		
 		for (int i = 0; i < N; i++) {
 			String str = br.readLine();
-			tk = new StringTokenizer(str , " ");
+			tk = new StringTokenizer(str , " "); 
 			switch (tk.nextToken()) {
 			case "push":
 				stack.add(Integer.parseInt(tk.nextToken()));
