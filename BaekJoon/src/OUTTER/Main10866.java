@@ -19,7 +19,7 @@ public class Main10866 {
 			StringTokenizer token = new StringTokenizer(line , " ");
 			
 			String pro = token.nextToken();
-			if(pro.indexOf("push_") > -1) {
+			if(pro.indexOf("push_") > -1) { 
 				if(pro.indexOf("front") > -1) {
 					deque.addFirst(Integer.parseInt(token.nextToken()));
 				} else {
