@@ -15,5 +15,5 @@ public class Main11050 {
 			return 1;
 		}
 		return BC(n-1 , k-1) + BC(n-1,k);
-	}
+	} 
 }
