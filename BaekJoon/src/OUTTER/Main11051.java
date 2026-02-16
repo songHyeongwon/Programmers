@@ -20,7 +20,7 @@ public class Main11051 {
 			return dp[n][k];
 		}
 		
-		if(n==k || k==0) {
+		if(n==k || k==0) { 
 			return dp[n][k] = 1;
 		}
 		return dp[n][k] = (BC(n-1 , k-1) + BC(n-1 , k)) % NUM ;
