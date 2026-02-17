@@ -8,6 +8,6 @@ public class Main15596 {
 			temp += a[i];
 		}
 		
-		return temp;
+		return temp; 
 	};
 }
