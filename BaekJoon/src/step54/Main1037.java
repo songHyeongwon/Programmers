@@ -12,8 +12,8 @@ public class Main1037 {
 			arr[i] = sc.nextInt();
 		}
 		Arrays.sort(arr);
-		
-		System.out.println(arr[0] * arr[N-1]);
+
+		System.out.println(arr[0] * arr[N - 1]);
 		sc.close();
 	}
 }
