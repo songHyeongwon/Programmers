@@ -9,11 +9,11 @@ public class Main1676 {
 
 		int count = 0;
 
-		while(N >= 5) {
-			count += N/5;
-			N /=5;
+		while (N >= 5) {
+			count += N / 5;
+			N /= 5;
 		}
-		System.out.println(count); 
+		System.out.println(count);
 		sc.close();
 	}
 }
