@@ -8,11 +8,12 @@ public class Main1712 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
-		
-		if(b >= c) System.out.println(-1);
+
+		if (b >= c)
+			System.out.println(-1);
 		else {
-			System.out.println(a / (c-b) +1);
-		} 
+			System.out.println(a / (c - b) + 1);
+		}
 		sc.close();
 	}
 }
