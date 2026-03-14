@@ -7,12 +7,12 @@ public class Main2444 {
 		Scanner sc = new Scanner(System.in);
 		String t = sc.nextLine();
 		String k = new StringBuilder(t).reverse().toString();
-		if(t.equals(k)) {
+		if (t.equals(k)) {
 			System.out.println(1);
 		} else {
 			System.out.println(0);
 		}
-		
+
 		sc.close();
 	}
 }
