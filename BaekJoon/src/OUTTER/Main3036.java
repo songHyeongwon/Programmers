@@ -9,20 +9,21 @@ public class Main3036 {
 		int rollCnt = sc.nextInt();
 		for (int i = 1; i < N; i++) {
 			int temp = sc.nextInt();
-			int gcd = gcd(temp , rollCnt);
+			int gcd = gcd(temp, rollCnt);
 			System.out.print(rollCnt / gcd);
 			System.out.print("/");
 			System.out.println(temp / gcd);
 		}
-		
+
 		sc.close();
-	} 
-	//최대공약수 
+	}
+
+	// 최대공약수
 	private static int gcd(int a, int b) {
-		while(b != 0) {
-			int r =a % b;
-			a=b;
-			b=r;
+		while (b != 0) {
+			int r = a % b;
+			a = b;
+			b = r;
 		}
 		return a;
 	}
