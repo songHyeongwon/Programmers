@@ -20,7 +20,7 @@ public class Main8958 {
 				}
 			}
 			System.out.println(point);
-		}
+		} 
 		sc.close();
 	}
 }
