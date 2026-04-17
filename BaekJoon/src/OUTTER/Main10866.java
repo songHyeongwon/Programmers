@@ -8,45 +8,45 @@ import java.util.Deque;
 import java.util.StringTokenizer;
 
 public class Main10866 {
-	public static void main(String[] args) throws IOException{
+	public static void main(String[] args) throws IOException {
 		Deque<Integer> deque = new ArrayDeque<Integer>();
-		
+
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuffer buf = new StringBuffer();
 		int N = Integer.parseInt(br.readLine());
 		for (int i = 0; i < N; i++) {
 			String line = br.readLine();
-			StringTokenizer token = new StringTokenizer(line , " ");
-			
+			StringTokenizer token = new StringTokenizer(line, " ");
+
 			String pro = token.nextToken();
-			if(pro.indexOf("push_") > -1) { 
-				if(pro.indexOf("front") > -1) {
+			if (pro.indexOf("push_") > -1) {
+				if (pro.indexOf("front") > -1) {
 					deque.addFirst(Integer.parseInt(token.nextToken()));
 				} else {
 					deque.addLast(Integer.parseInt(token.nextToken()));
 				}
-			} else if(pro.indexOf("pop_") > -1){
-				if(deque.isEmpty()) {
+			} else if (pro.indexOf("pop_") > -1) {
+				if (deque.isEmpty()) {
 					buf.append(-1).append("\n");
 				} else {
-					if(pro.indexOf("front") > -1) {
+					if (pro.indexOf("front") > -1) {
 						buf.append(deque.pollFirst()).append("\n");
 					} else {
 						buf.append(deque.pollLast()).append("\n");
 					}
 				}
-			} else if(pro.equals("size")) {
+			} else if (pro.equals("size")) {
 				buf.append(deque.size()).append("\n");
-			} else if(pro.equals("empty")) {
+			} else if (pro.equals("empty")) {
 				buf.append(deque.isEmpty() ? 1 : 0).append("\n");
-			} else if(pro.equals("front")) {
-				if(deque.isEmpty()) {
+			} else if (pro.equals("front")) {
+				if (deque.isEmpty()) {
 					buf.append(-1).append("\n");
 				} else {
 					buf.append(deque.peekFirst()).append("\n");
 				}
-			} else if(pro.equals("back")) {
-				if(deque.isEmpty()) {
+			} else if (pro.equals("back")) {
+				if (deque.isEmpty()) {
 					buf.append(-1).append("\n");
 				} else {
 					buf.append(deque.peekLast()).append("\n");
