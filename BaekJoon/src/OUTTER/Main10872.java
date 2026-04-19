@@ -11,7 +11,8 @@ public class Main10872 {
 	}
 
 	private static int getPack(int n, int temp) {
-		if(n == 0) return temp;
-		return getPack(n-1 , temp *= n);
-	} 
+		if (n == 0)
+			return temp;
+		return getPack(n - 1, temp *= n);
+	}
 }
