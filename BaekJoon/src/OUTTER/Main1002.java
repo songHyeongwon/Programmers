@@ -15,7 +15,7 @@ public class Main1002 {
 			int r2 = sc.nextInt();
 			System.out.println(outPrint(x1, y1, r1, x2, y2, r2));
 		}
-		sc.close();
+		sc.close(); 
 	}
 
 	private static int outPrint(int x1, int y1, int r1, int x2, int y2, int r2) {
