@@ -14,7 +14,7 @@ public class Main1003 {
 			arr[i][1] = arr[i - 1][1] + arr[i - 2][1];
 		}
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
+		int n = sc.nextInt(); 
 
 		for (int i = 0; i < n; i++) {
 			int next = sc.nextInt();
