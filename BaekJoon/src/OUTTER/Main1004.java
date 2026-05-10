@@ -17,7 +17,7 @@ class Planet {
 
 public class Main1004 {
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+	static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)); 
 
 	public static void main(String[] args) throws IOException {
 		int T = Integer.parseInt(br.readLine());
