@@ -15,7 +15,7 @@ public class Main1010 {
 			if (N != M) {
 				int b = 1;
 				while (N > 0) {
-					temp = temp * M / b; // 29 / 1 *
+					temp = temp * M / b; // 29 / 1 * 
 					b++;
 					M--;
 					N--;
