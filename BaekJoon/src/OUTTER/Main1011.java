@@ -17,7 +17,7 @@ public class Main1011 {
 			if (fit == max * max) {
 				System.out.println(max * 2 - 1);
 			} else if (fit <= max * max + max) {
-				System.out.println(max * 2);
+				System.out.println(max * 2); 
 			} else {
 				System.out.println(max * 2 + 1);
 			}
