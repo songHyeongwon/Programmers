@@ -20,7 +20,7 @@ public class Main1021 {
 		}
 		// 찾아서 빼내기
 		for (int i = 0; i < seq.length; i++) {
-			int idx = deque.indexOf(seq[i]); // 찾아야될 요소 위치
+			int idx = deque.indexOf(seq[i]); // 찾아야될 요소 위치 
 			int findIdx = 0; // 중앙점
 			if (deque.size() % 2 == 0) {
 				findIdx = deque.size() / 2 - 1;
