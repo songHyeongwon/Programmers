@@ -18,7 +18,7 @@ public class Main1065 {
 
 	private static boolean isCheck(int num) {
 		String temp = String.valueOf(num);
-		if (temp.length() < 2) {
+		if (temp.length() < 2) { 
 			return true;
 		}
 
