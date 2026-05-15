@@ -19,7 +19,7 @@ public class Main10250 {
 				if (k < 10) {
 					System.out.println("0" + k);
 				} else {
-					System.out.println(k);
+					System.out.println(k); 
 				}
 			} else {
 				System.out.print(N % H);
