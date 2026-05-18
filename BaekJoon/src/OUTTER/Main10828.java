@@ -11,7 +11,7 @@ public class Main10828 {
 		Stack<Integer> stack = new Stack<Integer>();
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer tk = null;
-		StringBuilder sb = new StringBuilder();
+		StringBuilder sb = new StringBuilder(); 
 
 		int N = Integer.parseInt(br.readLine());
 
