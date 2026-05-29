@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Main1003 {
 	public static void main(String[] args) {
 		int[][] arr = new int[41][2];
-		// 0ÀÇ°¹¼ö
-		// 1ÀÇ°¹¼ö
+		// 0ï¿½Ç°ï¿½ï¿½ï¿½
+		// 1ï¿½Ç°ï¿½ï¿½ï¿½
 		arr[0][0] = 1;
 		arr[1][1] = 1;
 		for (int i = 2; i < arr.length; i++) {
