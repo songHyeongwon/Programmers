@@ -11,6 +11,7 @@ public class Main1010 {
 			int N = sc.nextInt();
 			int M = sc.nextInt();
 
+
 			long temp = 1;
 			if (N != M) {
 				int b = 1;
