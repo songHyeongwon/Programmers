@@ -11,8 +11,8 @@ public class Main1011 {
 			int x = sc.nextInt();
 			int y = sc.nextInt();
 
-			int fit = y - x; // °Å¸®
-			int max = (int) Math.sqrt(fit); // ÃÖ´ë¼Óµµ
+			int fit = y - x; // ï¿½Å¸ï¿½
+			int max = (int) Math.sqrt(fit); //
 
 			if (fit == max * max) {
 				System.out.println(max * 2 - 1);
