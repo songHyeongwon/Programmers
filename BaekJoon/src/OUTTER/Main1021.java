@@ -10,18 +10,19 @@ public class Main1021 {
 		int M = sc.nextInt();
 		int[] seq = new int[M];
 
-		int count = 0; // ¹ÝÈ¯ Ä«¿îÆ®
+		int count = 0; // ï¿½ï¿½È¯ Ä«ï¿½ï¿½Æ®
 		LinkedList<Integer> deque = new LinkedList<Integer>();
 		for (int i = 0; i < N; i++) {
 			deque.add(i + 1);
 		}
+
 		for (int i = 0; i < seq.length; i++) {
 			seq[i] = sc.nextInt();
 		}
-		// Ã£¾Æ¼­ »©³»±â
+		// Ã£ï¿½Æ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		for (int i = 0; i < seq.length; i++) {
-			int idx = deque.indexOf(seq[i]); // Ã£¾Æ¾ßµÉ ¿ä¼Ò À§Ä¡ 
-			int findIdx = 0; // Áß¾ÓÁ¡
+			int idx = deque.indexOf(seq[i]); // Ã£ï¿½Æ¾ßµï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ 
+			int findIdx = 0; // ï¿½ß¾ï¿½ï¿½ï¿½
 			if (deque.size() % 2 == 0) {
 				findIdx = deque.size() / 2 - 1;
 			} else {
@@ -41,7 +42,7 @@ public class Main1021 {
 					count++;
 				}
 			}
-			deque.pollFirst(); // ¿¬»êÀÌ ³¡³ª¸é ¸Ç ¾Õ ¿ø¼Ò¸¦ »èÁ¦
+			deque.pollFirst(); // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Ò¸ï¿½ ï¿½ï¿½ï¿½ï¿½
 		}
 		System.out.println(count);
 		sc.close();
