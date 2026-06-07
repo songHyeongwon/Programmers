@@ -16,6 +16,7 @@ public class Main1065 {
 		System.out.println(outNum);
 	}
 
+
 	private static boolean isCheck(int num) {
 		String temp = String.valueOf(num);
 		if (temp.length() < 2) { 
@@ -35,7 +36,7 @@ public class Main1065 {
 			}
 
 			if (result) {
-				// System.out.println(num+" = "+(i)+"ÀÇ Áõ°¡ µîÂ÷¼ö¿­");
+				// System.out.println(num+" = "+(i)+"ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 				return true;
 			}
 
@@ -49,7 +50,7 @@ public class Main1065 {
 			}
 
 			if (result) {
-				// System.out.println(num+" = "+(i)+"ÀÇ °¨¼Ò µîÂ÷¼ö¿­");
+				// System.out.println(num+" = "+(i)+"ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 				return true;
 			}
 		}
