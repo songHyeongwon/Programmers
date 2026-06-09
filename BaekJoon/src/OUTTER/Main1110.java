@@ -20,6 +20,7 @@ public class Main1110 {
 				break;
 			}
 		}
+
 		System.out.println(count);
 		sc.close();
 	}
