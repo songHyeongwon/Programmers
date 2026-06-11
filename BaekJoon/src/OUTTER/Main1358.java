@@ -21,6 +21,7 @@ public class Main1358 {
 			if (fun(sc.nextInt(), sc.nextInt()))
 				count++;
 		}
+
 		sc.close();
 		System.out.println(count);
 	}
