@@ -17,3 +17,4 @@ public class Main1676 {
 		sc.close();
 	}
 }
+
