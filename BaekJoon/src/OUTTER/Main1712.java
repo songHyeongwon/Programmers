@@ -15,5 +15,6 @@ public class Main1712 {
 			System.out.println(a / (c - b) + 1);
 		}
 		sc.close();
+
 	}
 }
