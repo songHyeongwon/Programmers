@@ -20,7 +20,8 @@ public class Main1874 {
 
 		for (int i = 0; i < arr.length; i++) {
 			if (stack.contains(arr[i])) {
-				// ÀÖ´Ù¸é
+
+				// ï¿½Ö´Ù¸ï¿½
 				while (stack.peek() != arr[i]) {
 					// System.out.println("-");
 					buf.append("-\n");
@@ -30,8 +31,8 @@ public class Main1874 {
 				buf.append("-\n");
 				stack.pop();
 			} else {
-				// ¾ø´Ù¸é
-				if (idx > arr[i]) {// ÀÎµ¦½ºº¸´Ù ÀÛ´Ù¸é ÀÌ¹Ì Æ²·È´Ù
+				// ï¿½ï¿½ï¿½Ù¸ï¿½
+				if (idx > arr[i]) {// ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Û´Ù¸ï¿½ ï¿½Ì¹ï¿½ Æ²ï¿½È´ï¿½
 					System.out.println("NO");
 					return;
 				} else {
@@ -40,7 +41,7 @@ public class Main1874 {
 						buf.append("+\n");
 						stack.add(idx++);
 					}
-					i--;// ÀÔ·ÂÇØÁáÀ¸´Ï i¸¦ ÁÙÀÎ´Ù.
+					i--;// ï¿½Ô·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ iï¿½ï¿½ ï¿½ï¿½ï¿½Î´ï¿½.
 				}
 			}
 
