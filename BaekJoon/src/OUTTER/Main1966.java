@@ -23,17 +23,18 @@ public class Main1966 {
 				temp[1] = point;
 				pQueue.add(point);
 				queue.add(temp);
+
 			}
 
 			int count = 0;
 			k: while (!queue.isEmpty()) {
 				int point = pQueue.peek();
 				int[] temp = queue.poll();
-				// ¿ì¼±¼øÀ§°¡ ÀÏÄ¡ÇÏ¸é
+				// ï¿½ì¼±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½Ï¸ï¿½
 				if (temp[1] == point) {
-					pQueue.poll(); // ÇØ´ç¿ì¼±¼øÀ§ ¹®¼­¸¦ »Ì¾Æ³Â´Ù.
-					count++; // Ãâ·Â¹®¼­ ++
-					// ¿øÇÏ´Â ¹®¼­¶ó¸é Á¾·áÇÏ°í ³¡
+					pQueue.poll(); // ï¿½Ø´ï¿½ì¼±ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¾Æ³Â´ï¿½.
+					count++; // ï¿½ï¿½Â¹ï¿½ï¿½ï¿½ ++
+					// ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½
 					if (temp[0] == M) {
 						System.out.println(count);
 						break k;
