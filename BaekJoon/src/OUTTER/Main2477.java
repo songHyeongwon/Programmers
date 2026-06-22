@@ -24,6 +24,7 @@ public class Main2477 {
 			sum += now * pre;
 			pre = now;
 		}
+
 		max = Math.max(first * pre, max);
 		sum += first * pre;
 		int result = (max - ((max * 3) - sum)) * K;
