@@ -20,6 +20,7 @@ public class Main2577 {
 		for (int arr : intArr) {
 			System.out.println(arr);
 		}
+
 		sc.close();
 	}
 }
