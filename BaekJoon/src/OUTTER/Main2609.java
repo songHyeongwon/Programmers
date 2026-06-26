@@ -12,8 +12,8 @@ public class Main2609 {
 		int min = Math.min(a, b);
 		int max = Math.max(a, b);
 
-		int ans1 = 0;// ÃÖ´ë°ø¾à¼ö
-		int ans2 = 0;// ÃÖ¼Ò°ø¹è¼ö
+		int ans1 = 0;// ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½
+		int ans2 = 0;// ï¿½Ö¼Ò°ï¿½ï¿½ï¿½ï¿½
 		for (int i = 1; i <= min; i++) {
 			if (min % i == 0 && max % i == 0) {
 				ans1 = i;
@@ -25,8 +25,9 @@ public class Main2609 {
 				ans2 = min * i;
 				break;
 			}
+
 		}
 		System.out.println(ans1);
-		System.out.println(ans2);// ÃÖ¼Ò °ø¹è¼ö
+		System.out.println(ans2);// ï¿½Ö¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
 	}
 }
