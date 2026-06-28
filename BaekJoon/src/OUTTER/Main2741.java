@@ -5,13 +5,14 @@ import java.io.*;
 public class Main2741 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));// ¼±¾ð
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));// ï¿½ï¿½ï¿½ï¿½
 		int t = Integer.parseInt(br.readLine());
 
 		for (int i = 1; i <= t; i++) {
 			bw.write(i + "\n");
 		}
-		bw.close();// ½ºÆ®¸²À» ´ÝÀ½
+
+		bw.close();// ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		br.close();
 	}
 }
