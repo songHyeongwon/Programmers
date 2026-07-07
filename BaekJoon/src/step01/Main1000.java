@@ -10,5 +10,5 @@ public class Main1000 {
 		System.out.println(a - b);
 		sc.close();
 
-	}
+	} 
 }
