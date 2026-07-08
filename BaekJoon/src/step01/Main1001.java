@@ -10,5 +10,5 @@ public class Main1001 {
 		System.out.println(a + b);
 		sc.close();
 
-	}
+	} 
 }
