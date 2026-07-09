@@ -9,6 +9,6 @@ public class Main1008 {
 		int b = sc.nextInt();
 		System.out.println(a * b);
 		sc.close();
-	}
+	} 
 
 }
