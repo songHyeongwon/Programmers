@@ -13,6 +13,6 @@ public class Main2588 {
 		}
 		System.out.println(a * Integer.parseInt(k));
 		sc.close();
-
+ 
 	}
 }
