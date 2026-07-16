@@ -23,6 +23,6 @@ public class Main2738 {
 		}
 
 		sc.close();
-
+ 
 	}
 }
