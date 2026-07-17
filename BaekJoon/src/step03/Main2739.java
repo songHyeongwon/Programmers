@@ -11,6 +11,6 @@ public class Main2739 {
 			System.out.println(a + " * " + i + " = " + a * i);
 		}
 		sc.close();
-
+ 
 	}
 }
