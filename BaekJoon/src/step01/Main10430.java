@@ -14,5 +14,5 @@ public class Main10430 {
 		System.out.println(((A % C) * (B % C)) % C);
 		sc.close();
 
-	}
+	} 
 }
