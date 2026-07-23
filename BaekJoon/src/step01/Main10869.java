@@ -14,5 +14,5 @@ public class Main10869 {
 		System.out.println(a % b);
 		sc.close();
 
-	}
+	} 
 }
