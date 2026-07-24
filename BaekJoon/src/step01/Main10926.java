@@ -8,5 +8,5 @@ public class Main10926 {
 		System.out.println(sc.nextLine() + "??!");
 		sc.close();
 
-	}
+	} 
 }
