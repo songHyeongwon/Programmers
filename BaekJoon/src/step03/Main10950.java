@@ -13,6 +13,6 @@ public class Main10950 {
 			System.out.println(x + y);
 		}
 		sc.close();
-
+ 
 	}
 }
