@@ -11,5 +11,5 @@ public class Main11382 {
 		sc.close();
 		System.out.println(a + b + c);
 
-	}
+	} 
 }
