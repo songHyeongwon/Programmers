@@ -9,5 +9,5 @@ public class Main18108 {
 		System.out.println(sc.nextInt() - yranTem);
 		sc.close();
 
-	}
+	} 
 }
