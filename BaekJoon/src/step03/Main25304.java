@@ -17,6 +17,6 @@ public class Main25304 {
 			System.out.println("Yes");
 		else
 			System.out.println("No");
-
+ 
 	}
 }
